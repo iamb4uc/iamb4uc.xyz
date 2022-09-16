@@ -1,0 +1,58 @@
+[[entries]]
+title = "about me"
+
+  [[entries.entries]]
+  title = "a computer science student with way too much free time."
+
+  [[entries.entries]]
+  title = "check out my tutorials here"
+  url = "https://dev.to/iamb4uc"
+
+  [[entries.entries]]
+  title = "check out my socials"
+  
+  [[entries.entries.entries]]
+  title = "github"
+  url = "https://github.com/iamb4uc"
+
+  [[entries.entries.entries]]
+  title = "dev.to"
+  url = "https://dev.to/iamb4uc"
+  
+  [[entries.entries.entries]]
+  title = "mastodon"
+  url = "https://mastodon.social/@b4uc"
+
+  [[entries.entries.entries]]
+  title = "telegram"
+  url = "https://t.me/susssywusssy"
+
+[[entries]]
+title = "blog posts"
+
+  [entries.post_list]
+  limit = 5
+  show_more = true
+  show_more_text = "See archive..."
+  show_more_url = "post/"
+
+[[entries]]
+title = "book recommendation"
+url = "book"
+
+[[entries]]
+title = "donate some fake computer money"
+
+  [[entries.entries]]
+  title = "monero: 47kE91oAWUsC7dX2wpP2MhdV5WRA3iv3YgptaTTxXdeqF7j9XaYQUgzbk12Xb4Yf8RJxgDLEUuEEidV6Ev9uGW5VVTDJs91"
+
+  [[entries.entries]]
+  title = "ethereum: 0x2F78287646Acd6e3D40cCb6403C7d2b4b663dE48"
+
+[[entries]]
+title = "rss"
+url = "index.xml"
+
+[[entries]]
+title = "usefull resources"
+url = "usefullrec"
