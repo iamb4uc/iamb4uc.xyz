@@ -13,16 +13,39 @@
       <pubDate>Tue, 13 Sep 2022 20:57:08 +0530</pubDate>
       
       <guid>http://iamb4uc.xyz/usefullrec/</guid>
-      <description>here are some usefull resources I rely on suckless.org cat-v landchad.net based.cooking eff fsf </description>
+      <description>here are some usefull resources I rely on suckless.org cat-v landchad.net based.cooking eff fsf ~varsh you can use all of these by bookmarking them in your browser and donating to these services.</description>
     </item>
     
     <item>
-      <title>Neovim Customization</title>
+      <title>thoughts on modern medicine</title>
+      <link>http://iamb4uc.xyz/post/thoughts-on-modern-medicine/</link>
+      <pubDate>Fri, 15 Jul 2022 22:04:12 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/post/thoughts-on-modern-medicine/</guid>
+      <description>HOMEOPATHY: turning water into money since 1810
+&amp;ndash;Dr Aust
+Tl;Dr
+Its not just black and white, good or bad. I have mixed feeling but i am optimistic about this.
+TOC The bad part The good part The bad part It not that medicine is evil, we all need them to live a healthy and less stressful life. Its the medicine companies or as every social media influencer puts it &amp;ldquo;BIG PHARMA&amp;rdquo; I hate.</description>
+    </item>
+    
+    <item>
+      <title>neovim customization</title>
       <link>http://iamb4uc.xyz/post/nvim-customization/</link>
       <pubDate>Sun, 03 Jul 2022 08:48:38 +0530</pubDate>
       
       <guid>http://iamb4uc.xyz/post/nvim-customization/</guid>
       <description>Why use vim and neovim over other text editors and IDEs? For me, I&amp;rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or Neovim. Tho I currently, am running Neovim, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://iamb4uc.xyz/book/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://iamb4uc.xyz/book/</guid>
+      <description>Here I will be posting some of my recommendations for the books I read. Tho these may not be all computer or tech related but would probaly be a good read if you want to read something new.
+Also if you want to purchase these books please do so from the provided link as it is an affiliate like which would give me a small commision on your purchase.</description>
     </item>
     
   </channel>
