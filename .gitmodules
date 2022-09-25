@@ -1,7 +1,0 @@
-[submodule "themes/nostyleplease"]
-    path = themes/nostyleplease
-    url = "https://github.com/Masellum/hugo-theme-nostyleplease"
-
-[submodule "hugo-theme-nostyleplease"]
-    path = hugo-theme-nostyleplease
-    url = https://github.com/Masellum/hugo-theme-nostyleplease/
