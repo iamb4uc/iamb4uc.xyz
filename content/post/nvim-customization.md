@@ -1,12 +1,7 @@
 ---
-title: "neovim customization"
+title: "Neovim Customization"
 date: 2022-07-03T08:48:38+05:30
-draft: true
-tags: ["neovim", "vi", "ricing", "productivity"]
 draft: false
-description: "A Basic Minimal Neovim Config in vimscript"
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
 ---
 
 ### Why use vim and neovim over other text editors and IDEs?

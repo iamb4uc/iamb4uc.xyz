@@ -1,6 +1,5 @@
 ---
-title: "usefull resources"
-date: 2022-09-13T20:57:08+05:30
+title: "Usefull Resources"
 draft: false
 ---
 

@@ -27,7 +27,7 @@ theme = "nostyleplease"
 [params]
   [params.theme_config]
     back_home_text = "back"
-    date_format = "2006-01-02"
+    date_format = "01-2006"
 
 
 [privacy]

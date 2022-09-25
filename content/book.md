@@ -1,6 +1,6 @@
 ---
-title: "Book Recommendations"
-
+title: "Books"
+draft: false
 ---
 #### Here I will be posting some of my recommendations for the books I read.
 

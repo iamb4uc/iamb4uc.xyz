@@ -1,58 +1,69 @@
 [[entries]]
-title = "about me"
+title = "About me"
 
   [[entries.entries]]
-  title = "a computer science student with way too much free time."
+  title = "A computer science student with way too much free time."
 
   [[entries.entries]]
-  title = "check out my tutorials here"
+  title = "Check out my tutorials here"
   url = "https://dev.to/iamb4uc"
 
   [[entries.entries]]
-  title = "check out my socials"
+  title = "Check out my socials"
   
   [[entries.entries.entries]]
-  title = "github"
+  title = "Github"
   url = "https://github.com/iamb4uc"
 
   [[entries.entries.entries]]
-  title = "dev.to"
+  title = "Dev.to"
   url = "https://dev.to/iamb4uc"
   
   [[entries.entries.entries]]
-  title = "mastodon"
+  title = "Mastodon"
   url = "https://mastodon.social/@b4uc"
 
   [[entries.entries.entries]]
-  title = "telegram"
+  title = "Telegram"
   url = "https://t.me/susssywusssy"
 
 [[entries]]
-title = "blog posts"
+title = "Blogs"
 
   [entries.post_list]
-  limit = 5
+  limit = 3
   show_more = true
-  show_more_text = "See archive..."
+  show_more_text = "See more..."
   show_more_url = "post/"
 
 [[entries]]
-title = "book recommendation"
-url = "book"
+title = "Recommendations"
+  [[entries.entries]]
+  title = "Anime"
+  url = "anime"
+  [[entries.entries]]
+  title = "Books"
+  url = "book"
+  [[entries.entries]]
+  title = "Movies"
+  url = "movies"
+  [[entries.entries]]
+  title = "Music"
+  url = "music"
 
 [[entries]]
-title = "donate some fake computer money"
+title = "Donate some fake computer money"
 
   [[entries.entries]]
-  title = "monero: 47kE91oAWUsC7dX2wpP2MhdV5WRA3iv3YgptaTTxXdeqF7j9XaYQUgzbk12Xb4Yf8RJxgDLEUuEEidV6Ev9uGW5VVTDJs91"
+  title = "Monero: 47kE91oAWUsC7dX2wpP2MhdV5WRA3iv3YgptaTTxXdeqF7j9XaYQUgzbk12Xb4Yf8RJxgDLEUuEEidV6Ev9uGW5VVTDJs91"
 
   [[entries.entries]]
-  title = "ethereum: 0x2F78287646Acd6e3D40cCb6403C7d2b4b663dE48"
+  title = "Ethereum: 0x2F78287646Acd6e3D40cCb6403C7d2b4b663dE48"
 
 [[entries]]
-title = "rss"
+title = "RSS"
 url = "index.xml"
 
 [[entries]]
-title = "usefull resources"
+title = "Usefull Resources"
 url = "usefullrec"

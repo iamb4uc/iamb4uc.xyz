@@ -1,5 +1,5 @@
 ---
-title: "thoughts on modern medicine"
+title: "Thoughts On Modern Medicine"
 date: 2022-07-15T22:04:12+05:30
 draft: false
 ---
