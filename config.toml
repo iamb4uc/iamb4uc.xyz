@@ -1,6 +1,7 @@
 baseURL = 'http://iamb4uc.xyz'
 languageCode = 'en-us'
 title = "b4uc's dingus blogs"
+description = "Stupid but Based tech"
 theme = "nostyleplease"
 
 [markup]
