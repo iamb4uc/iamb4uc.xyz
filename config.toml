@@ -1,7 +1,7 @@
 baseURL = 'http://iamb4uc.xyz'
 languageCode = 'en-us'
 title = "b4uc's dingus blogs"
-theme = "hugo-theme-nostyleplease"
+theme = "nostyleplease"
 
 [markup]
   [markup.goldmark]
