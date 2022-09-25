@@ -21,7 +21,7 @@ If not then ***Fuck off***.
 
 1. Open up qbittorrent and press `Ctrl + n` to create a new torrent.  
 2. You will find the following window  
-![myot1](myot1.png)  
+![myot1](https://github.com/iamb4uc/iamb4uc.xyz/blob/main/static/myot1.png?raw=true)  
 In this you need to 
     - First specify the file you are trying to seed i.e. for me its ***arch BTW*** by either typing the file path or use the select file/folder button and select the file/folder,  
     - Then click `Calculate number of pieces`
