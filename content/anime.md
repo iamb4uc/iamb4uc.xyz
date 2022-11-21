@@ -21,3 +21,6 @@ The god of actual perfect ending in an anime series, just watch it in your free 
 
 5. ***Dororo***:  
 If you like non-stop action with a very unique story. Dororo is for you, it has so much action yet it maintains a decent story without being too over the top.
+
+5. ***Samurai Champloo***:  
+One of the best og action series and a masterpiece of a story, will definitely recommend to both normal people and cringy degenerate weeb that only know about shonen and isekai shit.
