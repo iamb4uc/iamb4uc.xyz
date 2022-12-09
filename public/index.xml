@@ -8,16 +8,33 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Aug 2022 21:30:04 +0800</lastBuildDate><atom:link href="http://iamb4uc.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>usefull resources</title>
-      <link>http://iamb4uc.xyz/usefullrec/</link>
-      <pubDate>Tue, 13 Sep 2022 20:57:08 +0530</pubDate>
+      <title>Make Your Own Torrent</title>
+      <link>http://iamb4uc.xyz/post/make-your-own-torrent/</link>
+      <pubDate>Sun, 25 Sep 2022 10:13:11 +0530</pubDate>
       
-      <guid>http://iamb4uc.xyz/usefullrec/</guid>
-      <description>here are some usefull resources I rely on suckless.org cat-v landchad.net based.cooking eff fsf ~varsh you can use all of these by bookmarking them in your browser and donating to these services.</description>
+      <guid>http://iamb4uc.xyz/post/make-your-own-torrent/</guid>
+      <description>You are based if you seed torrent.
+&amp;ndash;Probably Someone
+Torrent have a bad image when it comes to downloading thing, like movies, music and most importently ISO&amp;rsquo;s for your Linux distro.
+Well, then lets not waist time and make and make some torrents.
+Pre-requisites Qbittorrent(client) A good/reliable/fast internet connection The file you want to seed Well if you have all the above then follow the steps below.
+If not then Fuck off.</description>
     </item>
     
     <item>
-      <title>thoughts on modern medicine</title>
+      <title>Lets Join Tilde Varsh</title>
+      <link>http://iamb4uc.xyz/post/lets-join-tilde-varsh/</link>
+      <pubDate>Fri, 16 Sep 2022 22:48:40 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/post/lets-join-tilde-varsh/</guid>
+      <description>Few weeks ago I came across this thing called a tilde on the gnulinuxindia.org website, while lurking around the web. I had zero idea about what it was about or what even is it. So in their terms it is
+An India-based shared unix system which focuses on mutual development of skills and sharing of ideas. Services are secondary in this tilde, community is prime.
+&amp;ndash; Tildevarsh
+Still confused watch this Video</description>
+    </item>
+    
+    <item>
+      <title>Thoughts On Modern Medicine</title>
       <link>http://iamb4uc.xyz/post/thoughts-on-modern-medicine/</link>
       <pubDate>Fri, 15 Jul 2022 22:04:12 +0530</pubDate>
       
@@ -30,7 +47,7 @@ TOC The bad part The good part The bad part It not that medicine is evil, we all
     </item>
     
     <item>
-      <title>neovim customization</title>
+      <title>Neovim Customization</title>
       <link>http://iamb4uc.xyz/post/nvim-customization/</link>
       <pubDate>Sun, 03 Jul 2022 08:48:38 +0530</pubDate>
       
@@ -39,13 +56,49 @@ TOC The bad part The good part The bad part It not that medicine is evil, we all
     </item>
     
     <item>
-      <title></title>
+      <title>Anime</title>
+      <link>http://iamb4uc.xyz/anime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://iamb4uc.xyz/anime/</guid>
+      <description>[Disclaimer]
+I am no weeb or otaku, just a regular &amp;ldquo;joe&amp;rdquo; and I don&amp;rsquo;t care if your &amp;ldquo;underrated anime&amp;rdquo; is not in my list, go fuck yourself
+A list of definitely not-cringe anime/manga.
+Neon-Genesis Evangalion
+One of my most favorite anime of all time, it was one of the first anime that made me interested in serious topics such as mental health, trauma in an ANIME. It is very rare to see good quality anime these days.</description>
+    </item>
+    
+    <item>
+      <title>Books</title>
       <link>http://iamb4uc.xyz/book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://iamb4uc.xyz/book/</guid>
-      <description>Here I will be posting some of my recommendations for the books I read. Tho these may not be all computer or tech related but would probaly be a good read if you want to read something new.
-Also if you want to purchase these books please do so from the provided link as it is an affiliate like which would give me a small commision on your purchase.</description>
+      <description>Book that I enjoy and helped me the most in specific order
+Tho these may not be all computer or tech related but would probably be a good read if you want to read something new.
+Tech Books The C Programming Language [Brian W. Kernighan | Dennis M. Ritche]
+The Linux Command Line [William Shotts]
+Design of the UNIX Operating System [Maurice Bach]
+Designing BSD Rootkits [Joseph Kong]
+The Manga Guide to Databases [Shoko Azuma]</description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>http://iamb4uc.xyz/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://iamb4uc.xyz/services/</guid>
+      <description>I offer &amp;ldquo;reprinting and formatting&amp;rdquo; services like if you want to know more about my service, visit this site</description>
+    </item>
+    
+    <item>
+      <title>Usefull Resources</title>
+      <link>http://iamb4uc.xyz/usefullrec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://iamb4uc.xyz/usefullrec/</guid>
+      <description>here are some usefull resources I rely on suckless.org cat-v landchad.net based.cooking eff fsf ~varsh you can use all of these by bookmarking them in your browser and donating to these services.</description>
     </item>
     
   </channel>

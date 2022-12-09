@@ -6,9 +6,35 @@
     <description>Recent content in Posts on b4uc&#39;s dingus blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Jul 2022 22:04:12 +0530</lastBuildDate><atom:link href="http://iamb4uc.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Sep 2022 10:13:11 +0530</lastBuildDate><atom:link href="http://iamb4uc.xyz/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>thoughts on modern medicine</title>
+      <title>Make Your Own Torrent</title>
+      <link>http://iamb4uc.xyz/post/make-your-own-torrent/</link>
+      <pubDate>Sun, 25 Sep 2022 10:13:11 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/post/make-your-own-torrent/</guid>
+      <description>You are based if you seed torrent.
+&amp;ndash;Probably Someone
+Torrent have a bad image when it comes to downloading thing, like movies, music and most importently ISO&amp;rsquo;s for your Linux distro.
+Well, then lets not waist time and make and make some torrents.
+Pre-requisites Qbittorrent(client) A good/reliable/fast internet connection The file you want to seed Well if you have all the above then follow the steps below.
+If not then Fuck off.</description>
+    </item>
+    
+    <item>
+      <title>Lets Join Tilde Varsh</title>
+      <link>http://iamb4uc.xyz/post/lets-join-tilde-varsh/</link>
+      <pubDate>Fri, 16 Sep 2022 22:48:40 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/post/lets-join-tilde-varsh/</guid>
+      <description>Few weeks ago I came across this thing called a tilde on the gnulinuxindia.org website, while lurking around the web. I had zero idea about what it was about or what even is it. So in their terms it is
+An India-based shared unix system which focuses on mutual development of skills and sharing of ideas. Services are secondary in this tilde, community is prime.
+&amp;ndash; Tildevarsh
+Still confused watch this Video</description>
+    </item>
+    
+    <item>
+      <title>Thoughts On Modern Medicine</title>
       <link>http://iamb4uc.xyz/post/thoughts-on-modern-medicine/</link>
       <pubDate>Fri, 15 Jul 2022 22:04:12 +0530</pubDate>
       
@@ -21,7 +47,7 @@ TOC The bad part The good part The bad part It not that medicine is evil, we all
     </item>
     
     <item>
-      <title>neovim customization</title>
+      <title>Neovim Customization</title>
       <link>http://iamb4uc.xyz/post/nvim-customization/</link>
       <pubDate>Sun, 03 Jul 2022 08:48:38 +0530</pubDate>
       

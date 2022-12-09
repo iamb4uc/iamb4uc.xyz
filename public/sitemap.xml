@@ -2,39 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://iamb4uc.xyz/usefullrec/</loc>
-    <lastmod>2022-09-13T20:57:08+05:30</lastmod>
+    <loc>http://iamb4uc.xyz/post/make-your-own-torrent/</loc>
+    <lastmod>2022-09-25T10:13:11+05:30</lastmod>
+  </url><url>
+    <loc>http://iamb4uc.xyz/post/</loc>
+    <lastmod>2022-09-25T10:13:11+05:30</lastmod>
+  </url><url>
+    <loc>http://iamb4uc.xyz/post/lets-join-tilde-varsh/</loc>
+    <lastmod>2022-09-16T22:48:40+05:30</lastmod>
   </url><url>
     <loc>http://iamb4uc.xyz/</loc>
     <lastmod>2022-08-25T21:30:04+08:00</lastmod>
   </url><url>
-    <loc>http://iamb4uc.xyz/post/</loc>
-    <lastmod>2022-07-15T22:04:12+05:30</lastmod>
-  </url><url>
     <loc>http://iamb4uc.xyz/post/thoughts-on-modern-medicine/</loc>
     <lastmod>2022-07-15T22:04:12+05:30</lastmod>
-  </url><url>
-    <loc>http://iamb4uc.xyz/tags/neovim/</loc>
-    <lastmod>2022-07-03T08:48:38+05:30</lastmod>
   </url><url>
     <loc>http://iamb4uc.xyz/post/nvim-customization/</loc>
     <lastmod>2022-07-03T08:48:38+05:30</lastmod>
   </url><url>
-    <loc>http://iamb4uc.xyz/tags/productivity/</loc>
-    <lastmod>2022-07-03T08:48:38+05:30</lastmod>
-  </url><url>
-    <loc>http://iamb4uc.xyz/tags/ricing/</loc>
-    <lastmod>2022-07-03T08:48:38+05:30</lastmod>
-  </url><url>
-    <loc>http://iamb4uc.xyz/tags/</loc>
-    <lastmod>2022-07-03T08:48:38+05:30</lastmod>
-  </url><url>
-    <loc>http://iamb4uc.xyz/tags/vi/</loc>
-    <lastmod>2022-07-03T08:48:38+05:30</lastmod>
+    <loc>http://iamb4uc.xyz/anime/</loc>
   </url><url>
     <loc>http://iamb4uc.xyz/book/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>http://iamb4uc.xyz/categories/</loc>
+  </url><url>
+    <loc>http://iamb4uc.xyz/services/</loc>
+  </url><url>
+    <loc>http://iamb4uc.xyz/tags/</loc>
+  </url><url>
+    <loc>http://iamb4uc.xyz/usefullrec/</loc>
   </url>
 </urlset>
