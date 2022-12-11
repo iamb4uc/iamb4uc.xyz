@@ -10,7 +10,7 @@ menu:
       url: ""
       weight: 1
 
-    - name: Blogs
+    - name: Posts
       url: "post/"
       weight: 2
 
