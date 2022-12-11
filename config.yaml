@@ -16,15 +16,11 @@ menu:
 
     - name: About
       url: "about/"
-      weight: 4
-
-    - name: Prints
-      url: "print/"
       weight: 3
 
     - name: Contact
       url: "contact/"
-      weight: 5
+      weight: 4
 
 params:
   description: "A website for the chads."
