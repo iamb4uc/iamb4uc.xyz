@@ -4,7 +4,7 @@ draft: false
 ---
 
 [Disclaimer]  
-> I am no weeb or otaku, just a regular "joe" and I don't care if your "underrated anime" is not in my list, go fuck yourself
+> I am no weeb or otaku, just a regular "***ɘoᗡ ᴎoʜႱ***" and I don't care if your "underrated anime" is not in my list, go fuck yourself
 
 A list of definitely not-cringe anime/manga.
 1. ***Neon-Genesis Evangalion***  

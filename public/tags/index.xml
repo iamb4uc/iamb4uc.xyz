@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on b4uc&#39;s dingus blogs</title>
-    <link>http://iamb4uc.xyz/tags/</link>
-    <description>Recent content in Tags on b4uc&#39;s dingus blogs</description>
+    <title>Tags on A minimal Hugo website</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on A minimal Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://iamb4uc.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

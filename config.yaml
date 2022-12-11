@@ -1,0 +1,53 @@
+baseurl: "/"
+languageCode: "en-us"
+title: "Everything you want to know about me in one place"
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+footnotereturnlinkcontents: "↩"
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+
+    - name: Blogs
+      url: "post/"
+      weight: 2
+
+    - name: About
+      url: "about/"
+      weight: 4
+
+    - name: Prints
+      url: "print/"
+      weight: 3
+
+    - name: Contact
+      url: "contact/"
+      weight: 5
+
+params:
+  description: "A website for the chads."
+  footer: "[**Subscribe**](index.xml) -- [**Github**](https://github.com/iamb4uc) -- [**Mastodon**](https://mastodon.social/@b4uc) -- [**Email**](mailto:b4uc@tuta.io)"
+
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+privacy: # {{{
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true # }}}
