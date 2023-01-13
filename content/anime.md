@@ -2,11 +2,6 @@
 title: "Anime"
 draft: false
 ---
-
-[Disclaimer]  
-> I am no weeb or otaku, just a regular "***ɘoᗡ ᴎoʜႱ***" and I don't care if your "underrated anime" is not in my list, go fuck yourself
-
-A list of definitely not-cringe anime/manga.
 1. ***Neon-Genesis Evangalion***  
 One of my most favorite anime of all time, it was one of the first anime that made me interested in **serious topics** such as mental health, trauma in an ANIME. It is very rare to see good quality anime these days. But if you are a sucker for good plot and short anime that wont take too much dedication to watch through like me you will love this one.
 

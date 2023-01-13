@@ -22,10 +22,6 @@ menu:
       url: "contact/"
       weight: 4
 
-    - name: Resume
-      url: "mailto:example@foo.com?subject=Request for CV"
-      weight: 5
-
 params:
   description: "A website for the chads."
   footer: "[**Subscribe**](index.xml) -- [**Github**](https://github.com/iamb4uc) -- [**Mastodon**](https://mastodon.social/@b4uc) -- [**Email**](mailto:b4uc@tuta.io)"

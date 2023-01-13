@@ -2,36 +2,29 @@
 title: "Books"
 draft: false
 ---
-***Book that I enjoy and helped me the most in specific order***
+1. **The C Programming Language** [Brian W. Kernighan | Dennis M. Ritche]  
 
-Tho these may not be all computer or tech related but would probably 
-be a good read if you want to read something new.  
+2. **The Linux Command Line** [William Shotts]  
 
-## Tech Books
-* **The C Programming Language** [Brian W. Kernighan | Dennis M. Ritche]
+3. **Design of the UNIX Operating System** [Maurice Bach]  
 
-* **The Linux Command Line** [William Shotts]
+4. **Designing BSD Rootkits** [Joseph Kong]  
 
-* **Design of the UNIX Operating System** [Maurice Bach]
+5. **The Manga Guide to Databases** [Shoko Azuma]  
 
-* **Designing BSD Rootkits** [Joseph Kong]
+6. **Thus spoke Zarathustra** [Friedrich Nietzsche]  
 
-* **The Manga Guide to Databases** [Shoko Azuma]
+7. **Beyond Good and Evil** [Friedrich Nietzsche]  
 
-## Non-tech book
-* **Thus spoke Zarathustra** [Friedrich Nietzsche]
+8. **Meditation** [Marcus Aurelius]  
 
-* **Beyond Good and Evil** [Friedrich Nietzsche]
+9. **12 Rules For Life** [Jordan B. Peterson]  
 
-* **Meditation** [Marcus Aurelius]
+10. **Atomic Habits** [James Clear]  
 
-* **12 Rules For Life** [Jordan B. Peterson]
+11. **Maps of meaning** [Jordan B. Peterson]  
 
-* **Atomic Habits** [James Clear]
-
-* **Maps of meaning** [Jordan B. Peterson]
-
-* **48 Laws Of Power** [Greene, Robert]
+12. **48 Laws Of Power** [Greene, Robert]  
 
 
 
