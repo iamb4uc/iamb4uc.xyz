@@ -7,23 +7,12 @@ title: Home
 <!-- repo" />](https://github.com/iamb4uc) -->
 
 # IAMB4UC.*xyz*
-## *a bloatless website for the chads*
+## *Exploring the depths of technology, one byte at a time.*
 
 [<img src="https://raw.githubusercontent.com/iamb4uc/iamb4uc/main/img/head.png"/>](https://github.com/iamb4uc)
 
-**B4UC** is an alias/project that provides information and services by
-me alone, to learn more about me or how to get in touch with me,
-visit [about](/about).
-This website is a comfy/minimal/suckless project by me to showcase how you 
-don't need quadrillion JavaScript modules, API's to run your website.
+Welcome to my personal website, where you can learn more about my background and experience in the field of Computer Science. I am a student with a passion for Free and Open-Source software, Cybersecurity, Computer networks and Virtualization technologies. I strive to stay up-to-date with the latest developments in these areas and am always seeking new opportunities to learn and grow. This website serves as a showcase of my skills, projects and experience. I hope you find it informative and thank you for visiting.
 
-But anyways, I post re-formatted old books here, as well as write blogs
-about different topics in life I come across, these are mostly tech
-and philosophy based blogs but some times I can get political. You are
-free to criticize my opinions in via any social media, or 
-[email](mailto:b4uc@tuta.io) me your perspective about different matters
-my mail is always open for some decent conversation. Other than that there is
-no other ways of reaching out to me.
 
 If you would like to help me keep this thing going you can give me some fake
 internet money

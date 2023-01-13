@@ -1,47 +1,16 @@
 ---
 title: "Stoicism"
 date: 2022-12-10T12:46:31+05:30
-draft: true
+draft: false
 ---
+Stoicism has been a guiding principle in my life for the past few years. It has helped me to navigate through difficult times and find inner peace and fulfillment. The concept of "ataraxia" or inner peace, has been particularly valuable to me. Accepting that some things are beyond our control and focusing on the things that are within our control has allowed me to let go of my attachment to certain outcomes and find peace in the present moment.
 
-> Waste no more time arguing about what a good man should be. Be one.
->
-> --<cite>Marcus Aurelius</cite>
+Another concept that has been important to me is the idea of "virtue." The belief that virtue is the only true good and that it is achieved by living in accordance with nature and reason has helped me to strive for excellence in all aspects of my life. It has helped me to be more mindful of my thoughts, actions, and emotions and to make sure that they align with my values.
 
-Philosophy is not just about talking or lecturing, or even reading long, dense
-books. In fact, it is something men and women of action use -- and have used
-throughout history -- to solve their problems and achieve their greatest
-triumphs. Not in the classroom, but on the battlefield, in the Forum, and at
-court.
+Practicing mindfulness has also been a valuable tool for me in my journey towards stoicism. By being present in the moment and focusing on my thoughts, feelings, and surroundings without judgment, I have been able to gain a better understanding of myself and my emotions. This has helped me to control my emotions instead of being controlled by them.
 
-As Thoreau put it, "to be a philosopher is not merely to have subtle thoughts,
-nor even to found a school...it is to solve some of the problems of life, not
-only theoretically, but practically."
+One of the most important concepts I have learned from stoicism is the concept of "memento mori" or "remember that you have to die." This concept reminds me to live my life with purpose and to make the most of the time I have. It has helped me to set goals and work towards them, knowing that my time on this earth is limited. It's also helped me to appreciate the beauty of life and appreciate the people around me.
 
-That kind of philosophy has been jotted down (and practiced) by slaves, poets,
-emperors, politicians and soldiers, as well as ordinary folks to help with
-their own problems and those of their friends, family and followers for
-thousands of years. This wisdom is still there, available to us.
-
-Now here comes stoicism, it is one of the most practical philosophical ideas.
-
-Stoicism was founded in Athens by Zeno of Citium in the early 3rd century BC,
-but was famously practiced by the likes of 
-[Epictetus](https://en.wikipedia.org/wiki/Epictetus),
-[Cato](https://en.wikipedia.org/wiki/Cato_the_Younger),
-[Seneca](https://en.wikipedia.org/wiki/Seneca_the_Younger) and
-[Marcus Aurelius](https://en.wikipedia.org/wiki/Marcus_Aurelius).
-The philosophy asserts that virtue (such as wisdom) is happiness and
-judgment should be based on behavior, rather than words. That we don’t control
-and cannot rely on external events, only ourselves and our responses.
-
-One of my most favourite quotes from stoic philosopher 
-[Epictetus](https://en.wikipedia.org/wiki/Epictetus)
-
->In life our first job is this, to divide and distinguish things into two 
-catagories: external I cannot control, but the choices I make with regard to 
-them I do control. Where will I find good or bad? In me, in my choices."
->
-> --<cite>Epictetus</cite>
+In conclusion, stoicism has been a valuable philosophy for me, and I have found that the concepts of ataraxia, virtue, mindfulness, and memento mori have helped me to navigate through difficult times and find inner peace and fulfillment. I would encourage anyone looking to improve their emotional well-being and find a sense of purpose in life to explore the principles of stoicism.
 
 
