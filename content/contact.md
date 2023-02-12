@@ -7,6 +7,7 @@ draft: false
 You can reach out to me via my email
 [b4uc@tuta.io](mailto:b4uc@tuta.io)
 
+
 *I don't have any form of social media IE Facebook, Twitter, Discord, 4chan,
 Tiktok, etc. I only have an email, tho I do have a mastodon.social account
 but I am not active on that account. I also had reddit, but stopped using it 

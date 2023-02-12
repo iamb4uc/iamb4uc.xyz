@@ -6,8 +6,8 @@ title: Home
 <!-- style="max-width:25%;min-width:40px;float:right;" alt="Github  -->
 <!-- repo" />](https://github.com/iamb4uc) -->
 
-# IAMB4UC.*xyz*
-## *Exploring the depths of technology, one byte at a time.*
+<!-- # IAMB4UC.*xyz* -->
+<!-- ## *Exploring the depths of technology, one byte at a time.* -->
 
 [<img src="https://raw.githubusercontent.com/iamb4uc/iamb4uc/main/img/head.png"/>](https://github.com/iamb4uc)
 
