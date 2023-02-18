@@ -2,11 +2,8 @@
 title: "Contact"
 draft: false
 ---
-
-# Contact Me
 You can reach out to me via my email
-[b4uc@tuta.io](mailto:b4uc@tuta.io)
-
+`b4uc@tuta.io` or `condomchan@nuke.africa`
 
 *I don't have any form of social media IE Facebook, Twitter, Discord, 4chan,
 Tiktok, etc. I only have an email, tho I do have a mastodon.social account
@@ -18,6 +15,6 @@ person.*
 #### Rules for contacting me
 1. Only send emails regarding matters that are of **interest to me**, I don't
 want a pen-pal.
-2. Don't request me to share about my personal life. I don't want online friends.
-3. Don’t contact me asking me to shill your product of any sort. I will
+2. Don’t contact me asking me to shill your product of any sort. I will
 promote it if I like it.
+3. Don't request me to share about my personal life.
