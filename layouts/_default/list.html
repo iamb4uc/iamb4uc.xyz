@@ -2,11 +2,12 @@
 
 {{if not .IsHome }}
 <h1>{{ .Title | markdownify }}</h1>
+<hr>
 {{ end }}
 
 {{ .Content }}
 
-<ul>
+<ul class="bloglist">
   {{ $pages := .Pages }}
   {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
   {{ range (where $pages "Section" "!=" "") }}
