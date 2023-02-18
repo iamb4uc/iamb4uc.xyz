@@ -1,77 +1,68 @@
 body {
   max-width: 800px;
   margin: auto;
-  padding: 1em;
-  line-height: 1.5;
-  color: #201D1E;
-  background-color: #FEF8EC;
-  text-align: justify;
+  padding: 0 1em 1em 1em;
   text-justify: inter-word;
+  background-color: #f9f5d7;
+  color: #282828;
+  font-size: 89%;
+  font-family: Helvetica, Verdana, Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
+code {
+  font-family: monospace;
+  font-size: 84%;
+}
+
+p, article, .bloglist {
+  padding: 0.6em;
+  line-height: 1.3;
+  list-style-type: " ➤ ";
+}
 
 body a {
-  color: #4A6D63;
+  color: #9d0006;
   text-decoration: none;
 }
 
 /* header and footer areas */
-.menu { padding: 0; }
-.menu li { display: inline-block; }
-.article-meta, .menu a {
-  color: #FEF8EC;
-  text-decoration: none;
-  background: #201D1E;
-  padding: 10px;
-  border-radius: 5px;
+.menu, .menu a {
+  padding: 2px;
+  margin: 0px;
+  background-color: #076678;
+  color: white;
+  font-size:91%;
+  text-align: center;
 }
-.menu, .article-meta, footer { text-align: center; }
-.title { font-size: 1.1em; }
-footer a { text-decoration: none; }
+.menu li { display: inline-block; padding:0.5em;}
+.article-meta, h1 {
+  margin: 0pt;
+  padding: 0.45ex;
+  color: #282828;
+  text-decoration: none;
+  text-align: center;
+  font-style: normal;
+  font-size: 30pt;
+  font-family: serif;
+}
+footer, footer a { text-decoration: none;}
 hr {
+  margin: 0px;
+  padding: 0px;
   border: 1px;
-  max-width: 50%;
   border-style:solid;
-  color: #FBDDDA;
 }
 
 /* code */
-pre {
-  border: 1px solid #201D1E;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px #FCEAC5;
-  padding: 1em;
-  overflow-x: auto;
-}
-
 code {
   padding: 2px 5px 2px 5px;
-  border-radius: 2px;
-  color: #201D1E;
-  background-color: #FEF8EC;
 }
-/* pre code { background: none; } */
 
 /* misc elements */
 img, iframe, video { max-width: 100%; }
 main { hyphens: auto; }
 blockquote {
-  background: #FDF1D8;
-  /* font-style: italic; */
-  border: solid #201D1E;
-  border-radius: 5px;
-  padding: 1rem;
+  font-style: italic;
+  padding: 1em;
+  margin: 0;
 }
-
-blockquote  p {
-    margin: 0;
-}
-
-table {
-  margin: auto;
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
-}
-table thead th { border-bottom: 1px solid #ddd; }
-th, td { padding: 5px; }
-thead, tfoot, tr:nth-child(even) { background: #eee; }
