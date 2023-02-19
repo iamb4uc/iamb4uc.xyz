@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on A minimal Hugo website</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on A minimal Hugo website</description>
+    <title>Tags on iamb4uc.xyz</title>
+    <link>https://iamb4uc.xyz/tags/</link>
+    <description>Recent content in Tags on iamb4uc.xyz</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Feb 2023 04:22:10 +0530</lastBuildDate><atom:link href="https://iamb4uc.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://iamb4uc.xyz/tags/blog/</link>
+      <pubDate>Sat, 18 Feb 2023 04:22:10 +0530</pubDate>
+      
+      <guid>https://iamb4uc.xyz/tags/blog/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

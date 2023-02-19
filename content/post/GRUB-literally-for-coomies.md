@@ -10,11 +10,15 @@ tags: [blog]
 Here is a quick chat between me and my friend about grub
 ```
 
-> [Friend]: Hey I got this new refurbished thinkpad x230, what do you think? [[image attachment]]
-> [Me]: Looks pretty good. Time to install some obscure operating system into it.
-> [Friend]: Yeah :skull:
-> [Me]: Let me see how you set this up after you are done with all the installation and shit.
+> [Friend]: Hey I got this new refurbished thinkpad
+            x230, what do you think? [[image attachment]]
+> [Me]: Looks pretty good. Time to install some
+        obscure operating system into it.
+> [Friend]: Yeah :skull-emoji:
+> [Me]: Let me see how you set this up after you
+        are done with all the installation and shit.
 > [Friend]: ok
+
 
 > [Friend]: [[image attachment]]
 > [Me]: Looks neat.

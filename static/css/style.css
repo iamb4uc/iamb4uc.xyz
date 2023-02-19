@@ -3,7 +3,7 @@ body {
   margin: auto;
   padding: 0 1em 1em 1em;
   text-justify: inter-word;
-  background-color: #f9f5d7;
+  background-color: #fcf9e9;
   color: #282828;
   font-size: 89%;
   font-family: Helvetica, Verdana, Arial, 'Liberation Sans', FreeSans, sans-serif;
@@ -12,6 +12,7 @@ body {
 code {
   font-family: monospace;
   font-size: 84%;
+  overflow-wrap: break-word;
 }
 
 p, article, .bloglist {

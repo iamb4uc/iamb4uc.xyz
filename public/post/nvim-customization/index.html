@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Neovim Customization | iamb4uc.xyz</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/post/">Posts</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/contact/">Contact</a></li>
+      
+      <li><a href="https://github.com/iamb4uc">Github</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+      <li><a href="/donate/">Donate</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Neovim Customization</span></h1>
+
+
+</div><hr>
+
+<main>
+    <article>
+      <h3 id="why-use-vim-and-neovim-over-other-text-editors-and-ides">Why use vim and neovim over other text editors and IDEs?</h3>
+<p><em>For me, I&rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or Neovim. Tho I currently, am running Neovim, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo. But enough talking, lets start configuring our VIM/NVIM to make it more like an actual developing environment.</em></p>
+<p><strong>IMPORTANT:</strong> Since I mainly use Neovim, some of the stuff written in this blog might not work for vim users, for them just avoid the once that are not compatible, if I find any alternatives to those plugins and setting, I will update the blogs with the details.</p>
+<h3 id="step-1-setting-up-the-config-files-and-directory-for-vim-and-neovim1">Step 1: Setting up the config files and directory for vim and neovim<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h3>
+<p>Follow the commands given below to make all the necessary files and directories for neovim</p>
+<pre><code class="language-bash">cd
+mkdir -p ~/.config/nvim
+touch ~/.config/nvim/init.vim
+</code></pre>
+<p>The <strong>init.vim</strong> file is the config file that we will edit in this post to make our base neovim to look and act like an actual IDE.</p>
+<h3 id="step-2-editing-the-initvim-file">Step 2: Editing the init.vim file</h3>
+<p>To edit this <strong>init.vim</strong> open the file with the text editor of your choice and paste the following text</p>
+<pre><code class="language-vim">:set number
+:set relativenumber
+:set autoindent
+:set expandtab
+:set tabstop = 4
+:set shiftwidth = 4
+:set smarttab
+:set softtabstop = 4
+</code></pre>
+<p>These parameters set basic functionality for vim such as number lines, auto indentation, amd smart tabs. By default vim doesnt support mouse and its kinda normal to not use mouse since everything in vim can be done using the keyboard but if you are a soy and want to use mouse type this this too</p>
+<pre><code class="language-vim">:set mouse = a
+</code></pre>
+<p>For now we have done all the basic settings.</p>
+<h3 id="step-3-adding-a-plug-in-manager">Step 3: Adding a Plug-In Manager</h3>
+<p>For this setup we will use Vim-Plug to manage our plugins.</p>
+<ol>
+<li>
+<p>Install Curl<br>
+<strong>Debian-based</strong></p>
+<pre><code class="language-bash">apt install curl
+</code></pre>
+<p><strong>Gentoo</strong></p>
+<pre><code class="language-bash">emerge curl
+</code></pre>
+<p><strong>OpenBSD</strong></p>
+<pre><code class="language-bash">pkg_add curl
+</code></pre>
+<p><strong>Arch-based</strong></p>
+<pre><code class="language-bash">pacman -S curl
+</code></pre>
+<p><strong>Void</strong></p>
+<pre><code class="language-bash">xbps-install -S curl
+</code></pre>
+</li>
+<li>
+<p>Create the installation directories, download, and install Vim-Plug.</p>
+</li>
+</ol>
+<pre><code class="language-bash"> curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+</code></pre>
+<h3 id="step-4-installing-plug-ins">Step 4: Installing Plug-ins</h3>
+<p>In your init.vim file, add these lines at the bottom of what we previously wrote.</p>
+<pre><code class="language-vim">call plug#begin()
+
+
+
+call plug#end()
+</code></pre>
+<p>We will be able to add plugins in between the two commands.</p>
+<p>Now we will add our first plug-in</p>
+<p>Find the desireable plug-ins from <a href="https://vimawesome.com/">VIM Awesome</a> this is one of the best places to find vim and neovim plugins.<br>
+For this tutorial we will add couple of plug-ins to make our neovim look good and work like an ide.</p>
+<pre><code class="language-vim">Plug 'tpope/vim-fugitive'                   &quot; Git integration in to nvim
+Plug 'Yggdroot/indentLine'                  &quot; Line Indentations
+Plug 'farmergreg/vim-lastplace'             &quot; Continue from where you left last time
+Plug 'raimondi/delimitmate'                 &quot; Provides insert mode auto-completion for special-characters
+Plug 'tpope/vim-markdown'                   &quot; Markdown runtime files
+Plug 'tpope/vim-surround'                   &quot; Change paranthesis and quotes into other forms quickly
+Plug 'scrooloose/nerdtree'                  &quot; File navigator
+Plug 'vim-scripts/indentpython.vim'         &quot; Indentation script for python
+Plug 'alvan/vim-closetag'                   &quot; Makes a close tag for html quickly
+Plug 'luochen1990/rainbow'                  &quot; Provides different colors to different paranthesis
+Plug 'airblade/vim-gitgutter'               &quot; Shows git diffs in the sign columns
+Plug 'lilydjwg/colorizer'                   &quot; Provides color for the #rrggbb or #rgb color format in files
+Plug 'vim-airline/vim-airline'              &quot; Powerline Theme / Status line
+Plug 'vim-airline/vim-airline-themes'       &quot; Themes for vim-airline
+Plug 'rafi/awesome-vim-colorschemes'        &quot; Change colorschemes on the fly for vim and nvim
+Plug 'ryanoasis/vim-devicons'               &quot; Icons
+Plug 'SirVer/ultisnips'                     &quot; Code completion using snippets from vim-snippets and custom snippets
+Plug 'honza/vim-snippets'                   &quot; Provides snippets for ultisnips
+</code></pre>
+<p>First of all add few keybinding to open up NERDTree and make vertical and horizontal splits in your <code>init.nvim</code>.</p>
+<pre><code class="language-vim">nnoremap &lt;C-f&gt; :NERDTreeFocus&lt;CR&gt;
+nnoremap &lt;C-n&gt; :NERDTree&lt;CR&gt;
+nnoremap &lt;C-t&gt; :NERDTreeToggle&lt;CR&gt;
+nnoremap &lt;A-h&gt; :vsplit&lt;CR&gt;
+nnoremap &lt;A-k&gt; :split&lt;CR&gt;
+</code></pre>
+<p>After you&rsquo;ve saved and exited the file now open up neovim run <code>:PlugInstall</code>. This will install all the plugins in the plugged directory in <code>.local/share/nvim/plugged/</code>.</p>
+<p>Since we installed <code>vim airline</code> and <code>vim colorschemes</code> we can change the look and feel of neovim/vim. Find your favorite vim colorscheme <a href="https://github.com/rafi/awesome-vim-colorschemes">here</a> also find your favorite airline theme <a href="https://github.com/vim-airline/vim-airline-themes">here</a><br>
+For this blog, we will use the gruvbox theme along with the base16 airline theme. To make this permanent write these in your nvim config.</p>
+<pre><code class="language-vim">colorscheme gruvbox
+
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_theme='base16'
+</code></pre>
+<p>Since we also have a plugin for autoindentation and indent lines. We have to add these lines to the config too.</p>
+<pre><code class="language-vim">let g:indentLine_fileTypeExclude = [&quot;help&quot;, &quot;nerdtree&quot;, &quot;diff&quot;]
+let g:indentLine_fileTypeExclude = [&quot;help&quot;, &quot;nerdtree&quot;, &quot;diff&quot;, &quot;markdown&quot;]
+let g:indentLine_bufTypeExclude = [&quot;help&quot;, &quot;terminal&quot;]
+let g:indentLine_showFirstIndentLevel = 1
+let g:indentLine_indentLevel = 7
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+</code></pre>
+<h3 id="optionaladding-code-suggestions">(OPTIONAL)Adding Code-suggestions</h3>
+<p>This section is a bit tidious and is only available for neovim users so if you use vim this section is irrelevnet to you.<br>
+Add this plug-in in your init.vim file.</p>
+<pre><code class="language-vim">Plug 'neoclide/coc.nvim'                    &quot; Code suggestions and completion
+</code></pre>
+<p>Now this plugin wont run without nodejs in your machine so follow these steps to make it work.</p>
+<ol>
+<li>
+<p>Install Nodejs and npm</p>
+<p><strong>Debian</strong></p>
+<pre><code class="language-bash">apt install nodejs npm
+</code></pre>
+<p><strong>Arch</strong></p>
+<pre><code class="language-bash">pacman -S nodejs npm
+</code></pre>
+<p><strong>Gentoo</strong></p>
+<pre><code class="language-bash">emerge nodejs
+</code></pre>
+<p><strong>OpenBSD</strong></p>
+<pre><code class="language-bash">pkg_add node
+</code></pre>
+<p><strong>Void</strong></p>
+<pre><code class="language-bash">xbps-install nodejs
+</code></pre>
+<p><strong>For Other Distos and operating systems visit <a href="https://nodejs.org/en/download/package-manager/">https://nodejs.org/en/download/package-manager/</a></strong></p>
+</li>
+<li>
+<p>Additional Packages
+Install yarn</p>
+<pre><code class="language-bash">npm install yarn
+</code></pre>
+<p>After yarn is finished installing, execute the following command</p>
+<pre><code class="language-bash">cd ~/.local/share/nvim/plugged/coc.nvim/
+yarn install
+yarn build
+</code></pre>
+<p>Now open up an nvim install and check if any error is shown, if not then it is successfully installed. Otherwise check online for errors.</p>
+<p>From here on out check <a href="https://github.com/neoclide/coc.nvim/wiki">this github repository</a> to find your desired language to use and ways to download the language server. This is a bit tidious process but here is one example.</p>
+</li>
+</ol>
+<h4 id="exampleinstalling-the-python-language-server">(EXAMPLE)Installing the python language server</h4>
+<ol>
+<li>Install python3 and python3-pip</li>
+<li>Install jedi from the pip repository</li>
+</ol>
+<pre><code class="language-bash">pip install jedi
+</code></pre>
+<ol start="3">
+<li>Open up and nvim instance and run <code>:CocInstall coc-python</code> this will install the python module for Coc.</li>
+</ol>
+<p><em>Follow this type of procedure to install all of your favorite language servers and have fun coding</em></p>
+<!-- Footer -->
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Jump back to the top&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    </article>
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

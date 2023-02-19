@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on iamb4uc.xyz</title>
-    <link>https://iamb4uc.xyz/</link>
-    <description>Recent content in Home on iamb4uc.xyz</description>
+    <title>Posts on iamb4uc.xyz</title>
+    <link>https://iamb4uc.xyz/post/</link>
+    <description>Recent content in Posts on iamb4uc.xyz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Feb 2023 04:22:10 +0530</lastBuildDate><atom:link href="https://iamb4uc.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Feb 2023 04:22:10 +0530</lastBuildDate><atom:link href="https://iamb4uc.xyz/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GRUB - *Literally for coomies*</title>
       <link>https://iamb4uc.xyz/post/grub-literally-for-coomies/</link>
@@ -69,65 +69,6 @@ Still confused watch this Video</description>
       
       <guid>https://iamb4uc.xyz/post/nvim-customization/</guid>
       <description>Why use vim and neovim over other text editors and IDEs? For me, I&amp;rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or Neovim. Tho I currently, am running Neovim, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://iamb4uc.xyz/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iamb4uc.xyz/about/</guid>
-      <description>Hello and welcome to my personal website! My name is Swapnil(a.k.a. B4UC), and I am currently a Computer Science and Applications student with a passion for all thing technology. I have a particular interest in Free and Open-Source software, Cybersecurity, Computer networks, and Virtualization technologies. With my background in Computer Science, I have been able to develop a strong foundation in programming and problem-solving, which I apply to all my projects.</description>
-    </item>
-    
-    <item>
-      <title>Anime</title>
-      <link>https://iamb4uc.xyz/anime/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iamb4uc.xyz/anime/</guid>
-      <description>Neon-Genesis Evangalion
-One of my most favorite anime of all time, it was one of the first anime that made me interested in serious topics such as mental health, trauma in an ANIME. It is very rare to see good quality anime these days. But if you are a sucker for good plot and short anime that wont take too much dedication to watch through like me you will love this one.</description>
-    </item>
-    
-    <item>
-      <title>Books</title>
-      <link>https://iamb4uc.xyz/book/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iamb4uc.xyz/book/</guid>
-      <description>The C Programming Language [Brian W. Kernighan | Dennis M. Ritche]
-The Linux Command Line [William Shotts]
-Design of the UNIX Operating System [Maurice Bach]
-Designing BSD Rootkits [Joseph Kong]
-The Manga Guide to Databases [Shoko Azuma]
-Thus spoke Zarathustra [Friedrich Nietzsche]
-Beyond Good and Evil [Friedrich Nietzsche]
-Meditation [Marcus Aurelius]
-12 Rules For Life [Jordan B. Peterson]
-Atomic Habits [James Clear]
-Maps of meaning [Jordan B. Peterson]
-48 Laws Of Power [Greene, Robert]</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://iamb4uc.xyz/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iamb4uc.xyz/contact/</guid>
-      <description>You can reach out to me via my email b4uc@tuta.io or condomchan@nuke.africa
-I don&amp;rsquo;t have any form of social media IE Facebook, Twitter, Discord, 4chan, Tiktok, etc. I only have an email, tho I do have a mastodon.social account but I am not active on that account. I also had reddit, but stopped using it since I don&amp;rsquo;t actually need reddit to live my life. If there are any other sources that use the same name, it is not me its a fake ID or a different person.</description>
-    </item>
-    
-    <item>
-      <title>Donate</title>
-      <link>https://iamb4uc.xyz/donate/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iamb4uc.xyz/donate/</guid>
-      <description>Thanks for dropping by here are few ways you can help me fund this project and all the development of my free and open source software. You can either send me crypto via the following wallet addresses or send me using paypal.
-Monero: 47kE91oAWUsC7dX2wpP2MhdV5WRA3iv3YgptaTTxXdeqF7j9XaYQUgzbk12Xb4Yf8RJxgDLEUuEEidV6Ev9uGW5VVTDJs91 Ethereum: 0x2F78287646Acd6e3D40cCb6403C7d2b4b663dE48 Paypal: [[Need to make one first]] </description>
     </item>
     
   </channel>
