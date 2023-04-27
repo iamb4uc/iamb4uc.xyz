@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+{{- partial "head.html" . -}}
+
+<body a="{{ $.Site.Params.theme_config.appearance | default " auto" }}">
+  <main class="page-content" aria-label="Content">
+    <div class="w">
+      {{- block "main" . }}{{- end }}
+      <hr>
+      <center>
+        &#127279; Copyleft 2022-2023 <a href="/">b4uc</a>. No rights reserved
+        <br>
+        <br>
+        <a href="https://www.gnu.org/" target="_blank"><img src="/img/fosslinks/gnubanner.gif"> </a>
+        <a href="https://www.freebsd.org/" target="_blank"><img src="/img/fosslinks/freebsd.gif"> </a>
+        <a href="https://www.torproject.org/" target="_blank"><img src="/img/fosslinks/tor.gif"></a>
+        <a href="https://geti2p.net" target="_blank"><img src="/img/fosslinks/i2p.gif"></a>
+        <a href="https://www.getmonero.org/" target="_blank"><img src="/img/fosslinks/monero-now.gif"></a>
+        <a href="https://wiby.me" target="_blank"><img src="/img/fosslinks/wiby.gif"></a>
+        <a href="https://www.mozilla.org/en-US/firefox/switch/" target="_blank"><img
+            src="/img/fosslinks/same-shit.gif"></a>
+        <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank"><img src="/img/fosslinks/fftake.gif"></a>
+        <a href="https://stallman.org/articles/on-hacking.html" target="_blank"><img
+            src="/img/fosslinks/hacker-power.gif"></a>
+        <img src="/img/fosslinks/nocookie.gif">
+        <img src="/img/fosslinks/internetprivacy.gif">
+        <a href="https://duckduckgo.com/" target="_blank"><img src="/img/fosslinks/duckduckgo.png"></a>
+        <a href="https://www.gnu.org/gnu/linux-and-gnu.en.html" target="_blank"><img
+            src="/img/fosslinks/made_on_gnu_linux.png"></a>
+        <a href="https://vim.org" target="_blank"><img src="/img/fosslinks/vi-vim.gif"></a>
+      </center>
+    </div>
+  </main>
+
+</body>
+
+</html>
