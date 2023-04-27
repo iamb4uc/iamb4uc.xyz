@@ -1,5 +1,8 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
-<h1>404 NOT FOUND</h1>
+{{- partial "back_link.html" . -}}
 
-{{ partial "footer.html" . }}
+<header>
+    <h1>404 Not Found</h1>
+</header>
+{{ end }}
