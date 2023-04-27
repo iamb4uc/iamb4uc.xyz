@@ -31,8 +31,8 @@ title = ""
 [params]
   [params.theme_config]
     appearance = "auto"
-    back_home_text = "🡰"
-    date_format = "2006-01-02"
+    back_home_text = "home"
+    date_format = "02-01-2006"
 
 [privacy]
   [privacy.disqus]
