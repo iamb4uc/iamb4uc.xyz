@@ -2,46 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://iamb4uc.xyz/tags/blog/</loc>
+    <loc>http://iamb4uc.xyz/fosslinks/</loc>
+    <lastmod>2023-04-27T06:38:04+05:30</lastmod>
+  </url><url>
+    <loc>http://iamb4uc.xyz/</loc>
+    <lastmod>2023-04-27T06:38:04+05:30</lastmod>
+  </url><url>
+    <loc>http://iamb4uc.xyz/tags/linktree/</loc>
+    <lastmod>2023-04-27T06:38:04+05:30</lastmod>
+  </url><url>
+    <loc>http://iamb4uc.xyz/tags/</loc>
+    <lastmod>2023-04-27T06:38:04+05:30</lastmod>
+  </url><url>
+    <loc>http://iamb4uc.xyz/tags/blog/</loc>
     <lastmod>2023-02-18T04:22:10+05:30</lastmod>
   </url><url>
-    <loc>https://iamb4uc.xyz/post/grub-literally-for-coomies/</loc>
+    <loc>http://iamb4uc.xyz/post/grub-literally-for-coomies/</loc>
     <lastmod>2023-02-18T04:22:10+05:30</lastmod>
   </url><url>
-    <loc>https://iamb4uc.xyz/</loc>
+    <loc>http://iamb4uc.xyz/post/</loc>
     <lastmod>2023-02-18T04:22:10+05:30</lastmod>
   </url><url>
-    <loc>https://iamb4uc.xyz/post/</loc>
-    <lastmod>2023-02-18T04:22:10+05:30</lastmod>
-  </url><url>
-    <loc>https://iamb4uc.xyz/tags/</loc>
-    <lastmod>2023-02-18T04:22:10+05:30</lastmod>
-  </url><url>
-    <loc>https://iamb4uc.xyz/post/impact-of-ai-in-education-sector/</loc>
+    <loc>http://iamb4uc.xyz/post/impact-of-ai-in-education-sector/</loc>
     <lastmod>2023-01-13T22:38:31+05:30</lastmod>
   </url><url>
-    <loc>https://iamb4uc.xyz/post/stoicism/</loc>
+    <loc>http://iamb4uc.xyz/post/stoicism/</loc>
     <lastmod>2022-12-10T12:46:31+05:30</lastmod>
   </url><url>
-    <loc>https://iamb4uc.xyz/post/make-your-own-torrent/</loc>
+    <loc>http://iamb4uc.xyz/post/make-your-own-torrent/</loc>
     <lastmod>2022-09-25T10:13:11+05:30</lastmod>
   </url><url>
-    <loc>https://iamb4uc.xyz/post/lets-join-tilde-varsh/</loc>
+    <loc>http://iamb4uc.xyz/post/lets-join-tilde-varsh/</loc>
     <lastmod>2022-09-16T22:48:40+05:30</lastmod>
   </url><url>
-    <loc>https://iamb4uc.xyz/post/nvim-customization/</loc>
+    <loc>http://iamb4uc.xyz/post/nvim-customization/</loc>
     <lastmod>2022-07-03T08:48:38+05:30</lastmod>
   </url><url>
-    <loc>https://iamb4uc.xyz/about/</loc>
+    <loc>http://iamb4uc.xyz/about/</loc>
   </url><url>
-    <loc>https://iamb4uc.xyz/anime/</loc>
+    <loc>http://iamb4uc.xyz/anime/</loc>
   </url><url>
-    <loc>https://iamb4uc.xyz/book/</loc>
+    <loc>http://iamb4uc.xyz/book/</loc>
   </url><url>
-    <loc>https://iamb4uc.xyz/categories/</loc>
+    <loc>http://iamb4uc.xyz/categories/</loc>
   </url><url>
-    <loc>https://iamb4uc.xyz/contact/</loc>
+    <loc>http://iamb4uc.xyz/contact/</loc>
   </url><url>
-    <loc>https://iamb4uc.xyz/donate/</loc>
+    <loc>http://iamb4uc.xyz/donate/</loc>
   </url>
 </urlset>

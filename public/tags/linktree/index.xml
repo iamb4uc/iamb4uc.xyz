@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linktree on </title>
+    <link>http://iamb4uc.xyz/tags/linktree/</link>
+    <description>Recent content in linktree on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Apr 2023 06:38:04 +0530</lastBuildDate><atom:link href="http://iamb4uc.xyz/tags/linktree/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fosslinks</title>
+      <link>http://iamb4uc.xyz/fosslinks/</link>
+      <pubDate>Thu, 27 Apr 2023 06:38:04 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/fosslinks/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>
