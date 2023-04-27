@@ -1,0 +1,37 @@
+[[entries]]
+title = "Posts"
+url = "/post/"
+
+[[entries]]
+title = "About"
+url = "/about/"
+
+[[entries]]
+title = "Contact"
+url = "/contact/"
+
+[[entries]]
+title = "Gituhub"
+url = "https://github.com/iamb4uc/"
+
+[[entries]]
+title = "Mastodon"
+url = "https://mastodon.social/@b4uc"
+
+[[entries]]
+title = "Donate"
+url = "/donate/"
+
+[[entries]]
+title = "All Posts"
+
+  [entries.post_list]
+  limit = 5
+  show_more = true
+  show_more_text = "See archive..."
+  show_more_url = "post"
+
+[[entries]]
+title = "RSS"
+url = "index.xml"
+
