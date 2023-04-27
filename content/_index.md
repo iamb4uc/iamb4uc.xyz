@@ -1,16 +1,10 @@
 ---
 title: Home
 draft: false
-description: Home
+description: "Home"
 ---
-# Home
-<hr>
+# WELCOME TO MY PERSONAL ~~SHIT~~ SITE
+[![main](https://raw.githubusercontent.com/iamb4uc/iamb4uc/main/img/head.png)](/)
 
-Thank you for visiting, there is a lot of stuff here so feel free to check them out. 
-You can use the navigation bar at the top to check out stuff about me, my blogs,
-GitHub profile, Mastodon, even my contact information if you need them.
-
-
-
-
-Also be sure to check out my most recent [blogs](/post/) below:  
+Thanks for visiting, there are a lot of stuff here,
+feel free to check them out.

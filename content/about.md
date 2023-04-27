@@ -1,47 +1,29 @@
 ---
-title: "About"
+title: "about"
 draft: false
+description: "All things me"
 ---
 
-![friends enjoying themselves](/img/apu_band.gif)
+![Header](/img/wp.gif)
 
+I am a systems-level engineer with a passion for
+UNIX-like operating systems as well as other
+Free-and-Open-source software and a knack for hardware
+tinkering. I love digging into low-level details to
+understand how things really work, and using that
+knowledge to build robust, reliable software.
+Whether it's optimizing performance, improving
+security, or just exploring new possibilities, I'm
+always looking for ways to push the boundaries of
+what's possible with code. Follow me for projects
+and insights on all things systems and hardware!
 
-Hello and welcome to my personal website! My name is Swapnil(a.k.a. B4UC),
-and I am currently a Computer Science and Applications student with a passion for all thing
-technology. I have a particular interest in Free and Open-Source software,
-Cybersecurity, Computer networks, and Virtualization technologies. With my
-background in Computer Science, I have been able to develop a strong foundation
-in programming and problem-solving, which I apply to all my projects.
-
-My passion for Free and Open-Source software began when I discovered the power
-and flexibility it offers in comparison to proprietary software. I have been
-actively involved in several Free and Open-Source projects and have contributed
-to various communities. I am always looking for opportunities to learn more
-and gain experience in this field.
-
-In addition to Free and Open-Source software, I am also fascinated by the
-field of Cybersecurity. I believe that with the increasing digitization of
-our world, cybersecurity is becoming more important than ever. I am actively
-studying different cybersecurity techniques and strategies, and I am always
-eager to learn more.
-
-Computer networks and Virtualization technologies are also areas of 
-great interest to me. I am fascinated by the way that different computers
-and devices can be connected and how virtualization technologies can be
-used to create efficient and flexible computing environments. I am
-always looking for opportunities to learn more about these topics and
-to gain hands-on experience.
-
-Overall, my goal is to use my skills and knowledge to make a positive
-impact in the technology industry. On my website, you can find more
-information about my background, my professional experience, and my
-current projects. Thank you for visiting, and I hope you find something
-of interest here.
-
-Besides technology, I do ***enjoy*** movies, music, anime, and books like a
-regular person, but won't even try to bring that up in a conversation unless
-someone genuinely asks me to. But if you are interested, you can check out my
-recommendations bellow:
+Besides technology, I do **_enjoy_** movies, music,
+anime, and books like a regular person, but won't
+even try to bring that up in a conversation unless
+someone genuinely asks me to. But if you are
+interested, you can check out my recommendations
+bellow:
 
 - [Anime/Manga](/anime/)
 - [Books](/book/)

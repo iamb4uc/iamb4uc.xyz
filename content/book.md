@@ -1,6 +1,7 @@
 ---
 title: "Books"
 draft: false
+description: "My book recommendations"
 ---
 1. **The C Programming Language** [Brian W. Kernighan | Dennis M. Ritche]  
 

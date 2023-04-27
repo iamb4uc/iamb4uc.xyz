@@ -7,9 +7,8 @@ tags: [blog]
 ---
 
 
-Here is a quick chat between me and my friend about grub
+Here is a quick conversation between me and my friend about grub
 ```
-
 > [Friend]: Hey I got this new refurbished thinkpad
             x230, what do you think? [[image attachment]]
 > [Me]: Looks pretty good. Time to install some
@@ -32,21 +31,28 @@ Here is a quick chat between me and my friend about grub
 ```
 
 *Jk I did not block him its just satire.*
-But I do hate grub from the bottom of my heart, even gummiboot is better than what grub offers.
+But I do hate grub from the bottom of my heart,
+even gummiboot is better than what grub offers.
 Here are some reasons why:
 - It's an operating system in itself
 - The code base for this "bootloader" is larger than some actual utilities people use
 - Bloated af.
 - Tries to do everything just like systemd.
 
-I generally avoid grub but in linux is basically the default option besides some systemd distros
-that come with gummiboot or some derivative of that like the d*** systemd-boot.
+I generally avoid grub but in linux is basically
+the default option besides some systemd distros
+that come with gummiboot or some derivative of that
+like the d*** systemd-boot.
 
-I generally use the base gummiboot if I am on linux and libreboot on devices that supports free
-software.
+I generally use the base gummiboot if I am on linux
+and libreboot on devices that supports free software.
 
-The sad thing is there are no good bootloader that does what the name says and nothing more,
-and we are stuck with this barrage of malware like systemd, grub in our systems.
+The sad thing is there are no good bootloader that
+does what the name says and nothing more, and we
+are stuck with this barrage of malware like
+systemd, grub in our systems.
 
-I wont hate you if you just use grub or systemd-boot but you should check out some other alternatives.
+I wont hate you if you just use grub or systemd
+-boot but you should check out some other
+alternatives.
 
