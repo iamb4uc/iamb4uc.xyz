@@ -9,7 +9,7 @@ condomchan@nuke.africa
 ```
 or
 ```html
-b4uc@tuta.io
+swapnil@iamb4uc.xyz
 ```
 ### *IMPORTANT*
 I only have an inactive [mastodon](https://mastodon.social/@b4uc) account.
