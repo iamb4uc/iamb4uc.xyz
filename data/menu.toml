@@ -3,6 +3,10 @@ title = "Posts"
 url = "/post/"
 
 [[entries]]
+title = "Projects"
+url = "/projects/"
+
+[[entries]]
 title = "About"
 url = "/about/"
 
@@ -11,7 +15,7 @@ title = "Contact"
 url = "/contact/"
 
 [[entries]]
-title = "Gituhub"
+title = "GitHub"
 url = "https://github.com/iamb4uc/"
 
 [[entries]]
@@ -23,7 +27,7 @@ title = "Donate"
 url = "/donate/"
 
 [[entries]]
-title = "All Posts"
+title = "Recent Posts"
 
   [entries.post_list]
   limit = 5
