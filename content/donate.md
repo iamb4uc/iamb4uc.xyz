@@ -2,7 +2,6 @@
 title: "Donate"
 draft: false
 description: Donate some money
-tags: [giveMEmoney]
 ---
 
 Thanks for dropping by here are few ways you can help me fund this project and all the development of my free and open source software. You can either send me crypto via the following wallet addresses or send me using paypal.

@@ -2,7 +2,6 @@
 title: "Projects"
 draft: false
 description: All of my projects in one page, these are all FOSS so feel free to use them whenever you need.
-tags: [page]
 ---
 
 ### [*Dotfiles*](https://github.com/iamb4uc/dots.git)

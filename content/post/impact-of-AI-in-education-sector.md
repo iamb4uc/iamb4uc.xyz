@@ -3,7 +3,7 @@ title: "Impact of AI in Education Sector"
 date: 2023-01-13T22:38:31+05:30
 draft: false
 description: 
-tags: [blog]
+tags: [blog, tech, AI-rant]
 ---
 
 The use of AI technology in education is rapidly

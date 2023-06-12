@@ -3,7 +3,7 @@ title: "On Social Media"
 date: 2023-05-15T20:25:15+05:30
 draft: false
 description: 
-tags: [blog]
+tags: [blog, selfImprovement]
 ---
 
 Last day I got this email and here what it reads:

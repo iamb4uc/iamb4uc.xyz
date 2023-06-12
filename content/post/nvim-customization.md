@@ -2,6 +2,7 @@
 title: "Neovim Customization"
 date: 2022-07-03T08:48:38+05:30
 draft: false
+tags: [tutorial, blog, neovim, foss]
 ---
 
 ### Why use vim and neovim over other text editors and IDEs?
