@@ -1,10 +1,10 @@
 html,
 body {
-  background: #191a19;
+  background: #2a2826;
 }
 body a {
   text-decoration: none;
-  color: #5eadff;
+  color: #ff8a00;
 }
 
 html {
@@ -12,13 +12,14 @@ html {
 }
 
 body {
-  color: white;
-  font-family: monospace;
-  // font-size: 14px;
+  color: #eae8e7;
+  font-family: sans-serif;
+  font-size: 12px;
   line-height: 1.4;
   margin: 0;
   min-height: 100%;
   overflow-wrap: break-word;
+  text-align: justify;
 }
 
 .post-meta {
@@ -31,11 +32,18 @@ body {
   width: 100%;
 }
 
+h1{
+  color: white;
+  margin-top: 3rem;
+  text-align: center;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
+  color: white;
   margin-top: 3rem;
 }
 
@@ -106,9 +114,9 @@ code.has-jax {
 }
 
 blockquote {
-  font-style: italic;
-  border: thin solid #444;
-  padding: 1rem;
+  border: solid #444;
+  padding: 2rem;
+    margin: 0;
 
   p {
     margin: 0;
@@ -118,6 +126,7 @@ blockquote {
 img {
   max-width: 100%;
   align-content: center;
+  border-radius: 5px;
   // display: block;
   margin: 0 auto;
 }
