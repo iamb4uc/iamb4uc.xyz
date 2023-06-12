@@ -1,6 +1,6 @@
 [[entries]]
-title = "Posts"
-url = "/post/"
+title = "Posts by tags"
+url = "/tags/"
 
 [[entries]]
 title = "Projects"
@@ -9,10 +9,6 @@ url = "/projects/"
 [[entries]]
 title = "About"
 url = "/about/"
-
-[[entries]]
-title = "Contact"
-url = "/contact/"
 
 [[entries]]
 title = "GitHub"
