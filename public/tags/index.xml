@@ -6,22 +6,85 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Apr 2023 06:38:04 +0530</lastBuildDate><atom:link href="http://iamb4uc.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 May 2023 09:34:57 +0530</lastBuildDate><atom:link href="http://iamb4uc.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>linktree</title>
-      <link>http://iamb4uc.xyz/tags/linktree/</link>
-      <pubDate>Thu, 27 Apr 2023 06:38:04 +0530</pubDate>
+      <title>AI-rant</title>
+      <link>http://iamb4uc.xyz/tags/ai-rant/</link>
+      <pubDate>Wed, 17 May 2023 09:34:57 +0530</pubDate>
       
-      <guid>http://iamb4uc.xyz/tags/linktree/</guid>
+      <guid>http://iamb4uc.xyz/tags/ai-rant/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
       <link>http://iamb4uc.xyz/tags/blog/</link>
-      <pubDate>Sat, 18 Feb 2023 04:22:10 +0530</pubDate>
+      <pubDate>Wed, 17 May 2023 09:34:57 +0530</pubDate>
       
       <guid>http://iamb4uc.xyz/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>selfImprovement</title>
+      <link>http://iamb4uc.xyz/tags/selfimprovement/</link>
+      <pubDate>Mon, 15 May 2023 20:25:15 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/tags/selfimprovement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>foss</title>
+      <link>http://iamb4uc.xyz/tags/foss/</link>
+      <pubDate>Sat, 18 Feb 2023 04:22:10 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/tags/foss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>http://iamb4uc.xyz/tags/tech/</link>
+      <pubDate>Sat, 18 Feb 2023 04:22:10 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philosophy</title>
+      <link>http://iamb4uc.xyz/tags/philosophy/</link>
+      <pubDate>Sat, 10 Dec 2022 12:46:31 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>torrent</title>
+      <link>http://iamb4uc.xyz/tags/torrent/</link>
+      <pubDate>Sun, 25 Sep 2022 10:13:11 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/tags/torrent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>http://iamb4uc.xyz/tags/tutorial/</link>
+      <pubDate>Sun, 25 Sep 2022 10:13:11 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>neovim</title>
+      <link>http://iamb4uc.xyz/tags/neovim/</link>
+      <pubDate>Sun, 03 Jul 2022 08:48:38 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/tags/neovim/</guid>
       <description></description>
     </item>
     

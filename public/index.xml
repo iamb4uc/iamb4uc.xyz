@@ -1,19 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>home on </title>
+    <title>Home on </title>
     <link>http://iamb4uc.xyz/</link>
-    <description>Recent content in home on </description>
+    <description>Recent content in Home on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Apr 2023 06:38:04 +0530</lastBuildDate><atom:link href="http://iamb4uc.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 May 2023 09:34:57 +0530</lastBuildDate><atom:link href="http://iamb4uc.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Fosslinks</title>
-      <link>http://iamb4uc.xyz/fosslinks/</link>
-      <pubDate>Thu, 27 Apr 2023 06:38:04 +0530</pubDate>
+      <title>AI This AI That</title>
+      <link>http://iamb4uc.xyz/post/ai-this-ai-that/</link>
+      <pubDate>Wed, 17 May 2023 09:34:57 +0530</pubDate>
       
-      <guid>http://iamb4uc.xyz/fosslinks/</guid>
-      <description> </description>
+      <guid>http://iamb4uc.xyz/post/ai-this-ai-that/</guid>
+      <description>AI is making you dumb. </description>
+    </item>
+    
+    <item>
+      <title>On Social Media</title>
+      <link>http://iamb4uc.xyz/post/onsocialmedia/</link>
+      <pubDate>Mon, 15 May 2023 20:25:15 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/post/onsocialmedia/</guid>
+      <description>Last day I got this email and here what it reads:
+Hey there, I had this question for you and wanted to know about your thoughts/insight on this topic and would appreciate your insights on the following points:
+Positive aspects: What do you consider the main benefits of social media? Any specific instances where it has played a constructive role in your life or someone you know?
+Challenges: From your observations, what are the major drawbacks or negative effects of social media?</description>
+    </item>
+    
+    <item>
+      <title>Ghost Mode</title>
+      <link>http://iamb4uc.xyz/post/ghost-mode/</link>
+      <pubDate>Thu, 27 Apr 2023 14:24:33 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/post/ghost-mode/</guid>
+      <description>Ghost mode is the act of going complete offline and returning as the best version of yourself. It does not mean that you need to be rude or tell everyone to follow what you are doing.
+Here is the complete guide of how to get your life together and GRIND MOTHERFUCKER.
+Delete everything that keeps you on your phone:
+Limit the time you spend on social media each day, or better yet don&amp;rsquo;t use them.</description>
     </item>
     
     <item>
@@ -81,12 +105,12 @@ Still confused watch this Video</description>
     </item>
     
     <item>
-      <title>about</title>
+      <title>About</title>
       <link>http://iamb4uc.xyz/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://iamb4uc.xyz/about/</guid>
-      <description>I am a systems-level engineer with a passion for UNIX-like operating systems as well as other Free-and-Open-source software and a knack for hardware tinkering. I love digging into low-level details to understand how things really work, and using that knowledge to build robust, reliable software. Whether it&amp;rsquo;s optimizing performance, improving security, or just exploring new possibilities, I&amp;rsquo;m always looking for ways to push the boundaries of what&amp;rsquo;s possible with code.</description>
+      <description>I am a wanna-be systems-level engineer with a passion for UNIX-like operating systems as well as other Free-and-Open-source software and a knack for hardware tinkering. I love digging into low-level details to understand how things really work, and using that knowledge to build robust, reliable software. Whether it&amp;rsquo;s optimizing performance, improving security, or just exploring new possibilities, I&amp;rsquo;m always looking for ways to push the boundaries of what&amp;rsquo;s possible with code.</description>
     </item>
     
     <item>
@@ -120,16 +144,6 @@ Maps of meaning [Jordan B. Peterson]
     </item>
     
     <item>
-      <title>Contact</title>
-      <link>http://iamb4uc.xyz/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://iamb4uc.xyz/contact/</guid>
-      <description>You can reach out to me via my email b4uc@tuta.io or condomchan@nuke.africa
-I don&amp;rsquo;t have any form of social media IE Facebook, Twitter, Discord, 4chan, Tiktok, etc. I only have an email, tho I do have a mastodon.social account but I am not active on that account. I also had reddit, but stopped using it since I don&amp;rsquo;t actually need reddit to live my life. If there are any other sources that use the same name, it is not me its a fake ID or a different person.</description>
-    </item>
-    
-    <item>
       <title>Donate</title>
       <link>http://iamb4uc.xyz/donate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -137,6 +151,16 @@ I don&amp;rsquo;t have any form of social media IE Facebook, Twitter, Discord, 4
       <guid>http://iamb4uc.xyz/donate/</guid>
       <description>Thanks for dropping by here are few ways you can help me fund this project and all the development of my free and open source software. You can either send me crypto via the following wallet addresses or send me using paypal.
 Monero: 47kE91oAWUsC7dX2wpP2MhdV5WRA3iv3YgptaTTxXdeqF7j9XaYQUgzbk12Xb4Yf8RJxgDLEUuEEidV6Ev9uGW5VVTDJs91 Ethereum: 0x2F78287646Acd6e3D40cCb6403C7d2b4b663dE48 Kofi: https://www.buymeacoffee.com/b4uc </description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://iamb4uc.xyz/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://iamb4uc.xyz/projects/</guid>
+      <description>Dotfiles These dotfiles are very crucial to my development process and are a bonus for anyone who like to use vim/neovim and some other terminal applications. If you want to see for you yourself head over to the repo and clone it. Also feel free to improve the existing or creating new solutions to problems in that repo.
+No-More-Style-Please A Hugo theme that is made to look super minimal, yet modern.</description>
     </item>
     
   </channel>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>giveMEmoney on </title>
+    <link>http://iamb4uc.xyz/tags/givememoney/</link>
+    <description>Recent content in giveMEmoney on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://iamb4uc.xyz/tags/givememoney/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Donate</title>
+      <link>http://iamb4uc.xyz/donate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://iamb4uc.xyz/donate/</guid>
+      <description>Thanks for dropping by here are few ways you can help me fund this project and all the development of my free and open source software. You can either send me crypto via the following wallet addresses or send me using paypal.
+Monero: 47kE91oAWUsC7dX2wpP2MhdV5WRA3iv3YgptaTTxXdeqF7j9XaYQUgzbk12Xb4Yf8RJxgDLEUuEEidV6Ev9uGW5VVTDJs91 Ethereum: 0x2F78287646Acd6e3D40cCb6403C7d2b4b663dE48 Kofi: https://www.buymeacoffee.com/b4uc </description>
+    </item>
+    
+  </channel>
+</rss>

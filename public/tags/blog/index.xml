@@ -6,7 +6,40 @@
     <description>Recent content in blog on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Feb 2023 04:22:10 +0530</lastBuildDate><atom:link href="http://iamb4uc.xyz/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 May 2023 09:34:57 +0530</lastBuildDate><atom:link href="http://iamb4uc.xyz/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI This AI That</title>
+      <link>http://iamb4uc.xyz/post/ai-this-ai-that/</link>
+      <pubDate>Wed, 17 May 2023 09:34:57 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/post/ai-this-ai-that/</guid>
+      <description>AI is making you dumb. </description>
+    </item>
+    
+    <item>
+      <title>On Social Media</title>
+      <link>http://iamb4uc.xyz/post/onsocialmedia/</link>
+      <pubDate>Mon, 15 May 2023 20:25:15 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/post/onsocialmedia/</guid>
+      <description>Last day I got this email and here what it reads:
+Hey there, I had this question for you and wanted to know about your thoughts/insight on this topic and would appreciate your insights on the following points:
+Positive aspects: What do you consider the main benefits of social media? Any specific instances where it has played a constructive role in your life or someone you know?
+Challenges: From your observations, what are the major drawbacks or negative effects of social media?</description>
+    </item>
+    
+    <item>
+      <title>Ghost Mode</title>
+      <link>http://iamb4uc.xyz/post/ghost-mode/</link>
+      <pubDate>Thu, 27 Apr 2023 14:24:33 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/post/ghost-mode/</guid>
+      <description>Ghost mode is the act of going complete offline and returning as the best version of yourself. It does not mean that you need to be rude or tell everyone to follow what you are doing.
+Here is the complete guide of how to get your life together and GRIND MOTHERFUCKER.
+Delete everything that keeps you on your phone:
+Limit the time you spend on social media each day, or better yet don&amp;rsquo;t use them.</description>
+    </item>
+    
     <item>
       <title>GRUB - *Literally for coomies*</title>
       <link>http://iamb4uc.xyz/post/grub-literally-for-coomies/</link>
@@ -25,6 +58,27 @@
       <guid>http://iamb4uc.xyz/post/impact-of-ai-in-education-sector/</guid>
       <description>The use of AI technology in education is rapidly growing, and chatbots like ChatGPT are becoming increasingly popular as tools to assist students with their homework and assignments. However, this trend has not been without controversy. Recently, it was reported that the state of New York has banned the use of chatbots like ChatGPT in schools, due to concerns about their potential misuse by students.
 The decision to ban chatbots in New York schools was made after it was reported that some students were using these tools to cheat on their homework and assignments.</description>
+    </item>
+    
+    <item>
+      <title>Lets Join Tilde Varsh</title>
+      <link>http://iamb4uc.xyz/post/lets-join-tilde-varsh/</link>
+      <pubDate>Fri, 16 Sep 2022 22:48:40 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/post/lets-join-tilde-varsh/</guid>
+      <description>Few weeks ago I came across this thing called a tilde on the gnulinuxindia.org website, while lurking around the web. I had zero idea about what it was about or what even is it. So in their terms it is
+An India-based shared unix system which focuses on mutual development of skills and sharing of ideas. Services are secondary in this tilde, community is prime.
+&amp;ndash; Tildevarsh
+Still confused watch this Video</description>
+    </item>
+    
+    <item>
+      <title>Neovim Customization</title>
+      <link>http://iamb4uc.xyz/post/nvim-customization/</link>
+      <pubDate>Sun, 03 Jul 2022 08:48:38 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/post/nvim-customization/</guid>
+      <description>Why use vim and neovim over other text editors and IDEs? For me, I&amp;rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or Neovim. Tho I currently, am running Neovim, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo.</description>
     </item>
     
   </channel>

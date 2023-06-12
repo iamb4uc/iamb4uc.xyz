@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tutorial on </title>
+    <link>http://iamb4uc.xyz/tags/tutorial/</link>
+    <description>Recent content in tutorial on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Sep 2022 10:13:11 +0530</lastBuildDate><atom:link href="http://iamb4uc.xyz/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Make Your Own Torrent</title>
+      <link>http://iamb4uc.xyz/post/make-your-own-torrent/</link>
+      <pubDate>Sun, 25 Sep 2022 10:13:11 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/post/make-your-own-torrent/</guid>
+      <description>You are based if you seed torrent.
+&amp;ndash;Probably Someone
+Torrent have a bad image when it comes to downloading thing, like movies, music and most importently ISO&amp;rsquo;s for your Linux distro.
+Well, then lets not waist time and make and make some torrents.
+Pre-requisites Qbittorrent(client) A good/reliable/fast internet connection The file you want to seed Well if you have all the above then follow the steps below.
+If not then Fuck off.</description>
+    </item>
+    
+    <item>
+      <title>Lets Join Tilde Varsh</title>
+      <link>http://iamb4uc.xyz/post/lets-join-tilde-varsh/</link>
+      <pubDate>Fri, 16 Sep 2022 22:48:40 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/post/lets-join-tilde-varsh/</guid>
+      <description>Few weeks ago I came across this thing called a tilde on the gnulinuxindia.org website, while lurking around the web. I had zero idea about what it was about or what even is it. So in their terms it is
+An India-based shared unix system which focuses on mutual development of skills and sharing of ideas. Services are secondary in this tilde, community is prime.
+&amp;ndash; Tildevarsh
+Still confused watch this Video</description>
+    </item>
+    
+    <item>
+      <title>Neovim Customization</title>
+      <link>http://iamb4uc.xyz/post/nvim-customization/</link>
+      <pubDate>Sun, 03 Jul 2022 08:48:38 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/post/nvim-customization/</guid>
+      <description>Why use vim and neovim over other text editors and IDEs? For me, I&amp;rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or Neovim. Tho I currently, am running Neovim, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo.</description>
+    </item>
+    
+  </channel>
+</rss>

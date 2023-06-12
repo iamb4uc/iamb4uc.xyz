@@ -2,29 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://iamb4uc.xyz/fosslinks/</loc>
-    <lastmod>2023-04-27T06:38:04+05:30</lastmod>
+    <loc>http://iamb4uc.xyz/post/ai-this-ai-that/</loc>
+    <lastmod>2023-05-17T09:34:57+05:30</lastmod>
   </url><url>
-    <loc>http://iamb4uc.xyz/</loc>
-    <lastmod>2023-04-27T06:38:04+05:30</lastmod>
-  </url><url>
-    <loc>http://iamb4uc.xyz/tags/linktree/</loc>
-    <lastmod>2023-04-27T06:38:04+05:30</lastmod>
-  </url><url>
-    <loc>http://iamb4uc.xyz/tags/</loc>
-    <lastmod>2023-04-27T06:38:04+05:30</lastmod>
+    <loc>http://iamb4uc.xyz/tags/ai-rant/</loc>
+    <lastmod>2023-05-17T09:34:57+05:30</lastmod>
   </url><url>
     <loc>http://iamb4uc.xyz/tags/blog/</loc>
+    <lastmod>2023-05-17T09:34:57+05:30</lastmod>
+  </url><url>
+    <loc>http://iamb4uc.xyz/</loc>
+    <lastmod>2023-05-17T09:34:57+05:30</lastmod>
+  </url><url>
+    <loc>http://iamb4uc.xyz/post/</loc>
+    <lastmod>2023-05-17T09:34:57+05:30</lastmod>
+  </url><url>
+    <loc>http://iamb4uc.xyz/tags/</loc>
+    <lastmod>2023-05-17T09:34:57+05:30</lastmod>
+  </url><url>
+    <loc>http://iamb4uc.xyz/post/onsocialmedia/</loc>
+    <lastmod>2023-05-15T20:25:15+05:30</lastmod>
+  </url><url>
+    <loc>http://iamb4uc.xyz/tags/selfimprovement/</loc>
+    <lastmod>2023-05-15T20:25:15+05:30</lastmod>
+  </url><url>
+    <loc>http://iamb4uc.xyz/post/ghost-mode/</loc>
+    <lastmod>2023-04-27T14:24:33+05:30</lastmod>
+  </url><url>
+    <loc>http://iamb4uc.xyz/tags/foss/</loc>
     <lastmod>2023-02-18T04:22:10+05:30</lastmod>
   </url><url>
     <loc>http://iamb4uc.xyz/post/grub-literally-for-coomies/</loc>
     <lastmod>2023-02-18T04:22:10+05:30</lastmod>
   </url><url>
-    <loc>http://iamb4uc.xyz/post/</loc>
+    <loc>http://iamb4uc.xyz/tags/tech/</loc>
     <lastmod>2023-02-18T04:22:10+05:30</lastmod>
   </url><url>
     <loc>http://iamb4uc.xyz/post/impact-of-ai-in-education-sector/</loc>
     <lastmod>2023-01-13T22:38:31+05:30</lastmod>
+  </url><url>
+    <loc>http://iamb4uc.xyz/tags/philosophy/</loc>
+    <lastmod>2022-12-10T12:46:31+05:30</lastmod>
   </url><url>
     <loc>http://iamb4uc.xyz/post/stoicism/</loc>
     <lastmod>2022-12-10T12:46:31+05:30</lastmod>
@@ -32,8 +50,17 @@
     <loc>http://iamb4uc.xyz/post/make-your-own-torrent/</loc>
     <lastmod>2022-09-25T10:13:11+05:30</lastmod>
   </url><url>
+    <loc>http://iamb4uc.xyz/tags/torrent/</loc>
+    <lastmod>2022-09-25T10:13:11+05:30</lastmod>
+  </url><url>
+    <loc>http://iamb4uc.xyz/tags/tutorial/</loc>
+    <lastmod>2022-09-25T10:13:11+05:30</lastmod>
+  </url><url>
     <loc>http://iamb4uc.xyz/post/lets-join-tilde-varsh/</loc>
     <lastmod>2022-09-16T22:48:40+05:30</lastmod>
+  </url><url>
+    <loc>http://iamb4uc.xyz/tags/neovim/</loc>
+    <lastmod>2022-07-03T08:48:38+05:30</lastmod>
   </url><url>
     <loc>http://iamb4uc.xyz/post/nvim-customization/</loc>
     <lastmod>2022-07-03T08:48:38+05:30</lastmod>
@@ -46,8 +73,8 @@
   </url><url>
     <loc>http://iamb4uc.xyz/categories/</loc>
   </url><url>
-    <loc>http://iamb4uc.xyz/contact/</loc>
-  </url><url>
     <loc>http://iamb4uc.xyz/donate/</loc>
+  </url><url>
+    <loc>http://iamb4uc.xyz/projects/</loc>
   </url>
 </urlset>

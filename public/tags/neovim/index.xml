@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>neovim on </title>
+    <link>http://iamb4uc.xyz/tags/neovim/</link>
+    <description>Recent content in neovim on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Jul 2022 08:48:38 +0530</lastBuildDate><atom:link href="http://iamb4uc.xyz/tags/neovim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neovim Customization</title>
+      <link>http://iamb4uc.xyz/post/nvim-customization/</link>
+      <pubDate>Sun, 03 Jul 2022 08:48:38 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/post/nvim-customization/</guid>
+      <description>Why use vim and neovim over other text editors and IDEs? For me, I&amp;rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or Neovim. Tho I currently, am running Neovim, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo.</description>
+    </item>
+    
+  </channel>
+</rss>

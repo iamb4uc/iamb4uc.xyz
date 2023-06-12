@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>torrent on </title>
+    <link>http://iamb4uc.xyz/tags/torrent/</link>
+    <description>Recent content in torrent on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Sep 2022 10:13:11 +0530</lastBuildDate><atom:link href="http://iamb4uc.xyz/tags/torrent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Make Your Own Torrent</title>
+      <link>http://iamb4uc.xyz/post/make-your-own-torrent/</link>
+      <pubDate>Sun, 25 Sep 2022 10:13:11 +0530</pubDate>
+      
+      <guid>http://iamb4uc.xyz/post/make-your-own-torrent/</guid>
+      <description>You are based if you seed torrent.
+&amp;ndash;Probably Someone
+Torrent have a bad image when it comes to downloading thing, like movies, music and most importently ISO&amp;rsquo;s for your Linux distro.
+Well, then lets not waist time and make and make some torrents.
+Pre-requisites Qbittorrent(client) A good/reliable/fast internet connection The file you want to seed Well if you have all the above then follow the steps below.
+If not then Fuck off.</description>
+    </item>
+    
+  </channel>
+</rss>
