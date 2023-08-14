@@ -1,35 +1,31 @@
 [[entries]]
-title = "Posts by tags"
-url = "/tags/"
+title = "About/Contact"
+url = "/about/"
 
 [[entries]]
 title = "Projects"
 url = "/projects/"
 
 [[entries]]
-title = "About"
-url = "/about/"
-
-[[entries]]
 title = "GitHub"
 url = "https://github.com/iamb4uc/"
-
-[[entries]]
-title = "Mastodon"
-url = "https://mastodon.social/@b4uc"
 
 [[entries]]
 title = "Donate"
 url = "/donate/"
 
 [[entries]]
-title = "Recent Posts"
+title = "Posts"
 
-  [entries.post_list]
-  limit = 5
-  show_more = true
-  show_more_text = "See archive..."
-  show_more_url = "post"
+    [entries.post_list]
+    limit = 3
+    show_more = true
+    show_more_text = "Show more..."
+    show_more_url = "post"
+
+[[entries]]
+title = "Posts by tags"
+url = "/tags/"
 
 [[entries]]
 title = "RSS"
