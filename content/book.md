@@ -15,27 +15,28 @@ websites. If you can, support your local book
 store.
 
 1. **The C Programming Language** [Brian W. Kernighan, Dennis M. Ritche]  
-1. **Design Patterns** [Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides]  
 
-2. **The Linux Command Line** [William Shotts]  
+2. **Design Patterns** [Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides]  
 
-3. **Design of the UNIX Operating System** [Maurice Bach]  
+3. **The Linux Command Line** [William Shotts]  
 
-4. **Designing BSD Rootkits** [Joseph Kong]  
+4. **Design of the UNIX Operating System** [Maurice Bach]  
 
-5. **The Manga Guide to Databases** [Shoko Azuma]  
+5. **Designing BSD Rootkits** [Joseph Kong]  
 
-6. **Thus spoke Zarathustra** [Friedrich Nietzsche]  
+6. **The Manga Guide to Databases** [Shoko Azuma]  
 
-7. **Beyond Good and Evil** [Friedrich Nietzsche]  
+7. **Thus spoke Zarathustra** [Friedrich Nietzsche]  
 
-8. **Meditation** [Marcus Aurelius]  
+8. **Beyond Good and Evil** [Friedrich Nietzsche]  
 
-9. **12 Rules For Life** [Jordan B. Peterson]  
+9. **Meditation** [Marcus Aurelius]  
 
-10. **Atomic Habits** [James Clear]  
+10. **12 Rules For Life** [Jordan B. Peterson]  
 
-11. **Maps of meaning** [Jordan B. Peterson]  
+11. **Atomic Habits** [James Clear]  
 
-12. **48 Laws Of Power** [Robert Greene]  
+12. **Maps of meaning** [Jordan B. Peterson]  
+
+13. **48 Laws Of Power** [Robert Greene]  
 
