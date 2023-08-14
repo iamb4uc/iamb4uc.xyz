@@ -3,55 +3,61 @@
 {{- partial "head.html" . -}}
 
 <body a="{{ $.Site.Params.theme_config.appearance | default " auto" }}">
-  <main class="page-content" aria-label="Content">
-    <div class="w">
-      {{- block "main" . }}{{- end }}
-      <hr>
-      <center>
-        &#127279; <a href="https://www.gnu.org/licenses/copyleft.en.html">Copyleft</a> 2022-2023 <a href="/">b4uc</a>.
-        No rights reserved
-        <br>
-        <br>
-        <div class="webring">
-          <a href="https://gnulinuxindia.org/direct.html?name=b4uc&dir=prev" alt="ᐊ ">ᐊ </a>
-          <a href="https://gnulinuxindia.org/members.html/" target="_blank" alt="Visit GNU/LINUX INDIA">GNU/LINUX INDIA
-            WEBRING</a>
-          <a href="https://gnulinuxindia.org/direct.html?name=b4uc&dir=next" alt=" ᐅ"> ᐅ</a>
+    <main class="page-content" aria-label="Content">
+        <div class="w">
+            {{- block "main" . }}{{- end }}
+            <hr>
+            <center>
+                &#127279; <a href="https://www.gnu.org/licenses/copyleft.en.html">Copyleft</a> 2022-2023 <a
+                    href="/">B4UC</a>.
+                No rights reserved
+                <br>
+                <br>
+                <div class="webring">
+                    <a href="https://gnulinuxindia.org/direct.html?name=b4uc&dir=prev" alt="ᐊ ">ᐊ </a>
+                    <a href="https://gnulinuxindia.org/members.html/" target="_blank"
+                        alt="Visit GNU/LINUX INDIA">GNU/LINUX INDIA
+                        WEBRING</a>
+                    <a href="https://gnulinuxindia.org/direct.html?name=b4uc&dir=next" alt=" ᐅ"> ᐅ</a>
+                </div>
+                <br>
+                <br>
+                <div class="fossicons">
+                    <a href="https://www.gnu.org/" target="_blank"><img src="/img/fosslinks/gnubanner.gif"
+                            alt="gnu.org"></a>
+                    <a href="https://www.freebsd.org/" target="_blank"><img src="/img/fosslinks/freebsd.gif"
+                            alt="freebsd.org">
+                    </a>
+                    <a href="https://www.torproject.org/" target="_blank"><img src="/img/fosslinks/tor.gif"
+                            alt="torproject.org"></a>
+                    <a href="https://geti2p.net" target="_blank"><img src="/img/fosslinks/i2p.gif" alt="geti2p.net"></a>
+                    <a href="https://www.getmonero.org/" target="_blank"><img src="/img/fosslinks/monero-now.gif"
+                            alt="getmonero.org"></a>
+                    <a href="https://wiby.me" target="_blank"><img src="/img/fosslinks/wiby.gif" alt="wiby.me"></a>
+                    <a href="https://www.mozilla.org/en-US/firefox/switch/" target="_blank"><img
+                            src="/img/fosslinks/same-shit.gif" alt="Ditch Chrome"></a>
+                    <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank"><img
+                            src="/img/fosslinks/fftake.gif" alt="Get Firefox"></a>
+                    <a href="https://stallman.org/articles/on-hacking.html" target="_blank"><img
+                            src="/img/fosslinks/hacker-power.gif" alt="Stallman On Hacking"></a>
+                    <img src="/img/fosslinks/nocookie.gif" alt="This website uses no cookies">
+                    <img src="/img/fosslinks/internetprivacy.gif" alt="Also respects your privacy">
+                    <a href="https://duckduckgo.com/" target="_blank"><img src="/img/fosslinks/duckduckgo.png"
+                            alt="Ditch Google"></a>
+                    <a href="mailto:swapnil@iamb4uc.xyz" target="_blank"><img src="/img/fosslinks/mailput.gif"
+                            alt="Email Me"></a>
+                    <a href="https://www.gnu.org/gnu/linux-and-gnu.en.html" target="_blank"><img
+                            src="/img/fosslinks/made_on_gnu_linux.png" alt="Freedom Land approved"></a>
+                    <a href="https://vim.org" target="_blank"><img src="/img/fosslinks/vi-vim.gif"
+                            alt="Written with vim"></a>
+                    <a href="https://voidlinux.org" target="_blank"><img src="/img/fosslinks/voidlinux.gif"
+                            alt="I use void retard"></a>
+                    <a href="https://gimp.org" target="_blank"><img src="/img/fosslinks/gimp.gif"
+                            alt="All graphics are edited by GIMP"></a>
+                </div>
+            </center>
         </div>
-        <br>
-        <br>
-        <div class="fossicons">
-          <a href="https://www.gnu.org/" target="_blank"><img src="/img/fosslinks/gnubanner.gif" alt="gnu.org"></a>
-          <a href="https://www.freebsd.org/" target="_blank"><img src="/img/fosslinks/freebsd.gif" alt="freebsd.org">
-          </a>
-          <a href="https://www.torproject.org/" target="_blank"><img src="/img/fosslinks/tor.gif"
-              alt="torproject.org"></a>
-          <a href="https://geti2p.net" target="_blank"><img src="/img/fosslinks/i2p.gif" alt="geti2p.net"></a>
-          <a href="https://www.getmonero.org/" target="_blank"><img src="/img/fosslinks/monero-now.gif"
-              alt="getmonero.org"></a>
-          <a href="https://wiby.me" target="_blank"><img src="/img/fosslinks/wiby.gif" alt="wiby.me"></a>
-          <a href="https://www.mozilla.org/en-US/firefox/switch/" target="_blank"><img
-              src="/img/fosslinks/same-shit.gif" alt="Ditch Chrome"></a>
-          <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank"><img src="/img/fosslinks/fftake.gif"
-              alt="Get Firefox"></a>
-          <a href="https://stallman.org/articles/on-hacking.html" target="_blank"><img
-              src="/img/fosslinks/hacker-power.gif" alt="Stallman On Hacking"></a>
-          <img src="/img/fosslinks/nocookie.gif" alt="This website uses no cookies">
-          <img src="/img/fosslinks/internetprivacy.gif" alt="Also respects your privacy">
-          <a href="https://duckduckgo.com/" target="_blank"><img src="/img/fosslinks/duckduckgo.png"
-              alt="Ditch Google"></a>
-          <a href="mailto:swapnil@iamb4uc.xyz" target="_blank"><img src="/img/fosslinks/mailput.gif" alt="Email Me"></a>
-          <a href="https://www.gnu.org/gnu/linux-and-gnu.en.html" target="_blank"><img
-              src="/img/fosslinks/made_on_gnu_linux.png" alt="Freedom Land approved"></a>
-          <a href="https://vim.org" target="_blank"><img src="/img/fosslinks/vi-vim.gif" alt="Written with vim"></a>
-          <a href="https://voidlinux.org" target="_blank"><img src="/img/fosslinks/voidlinux.gif"
-              alt="I use void retard"></a>
-          <a href="https://gimp.org" target="_blank"><img src="/img/fosslinks/gimp.gif"
-              alt="All graphics are edited by GIMP"></a>
-        </div>
-      </center>
-    </div>
-  </main>
+    </main>
 
 </body>
 
