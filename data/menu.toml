@@ -1,21 +1,21 @@
 [[entries]]
-title = "About/Contact"
+title = "🤵 About/Contact"
 url = "/about/"
 
 [[entries]]
-title = "Projects"
+title = "🗺️ Projects"
 url = "/projects/"
 
 [[entries]]
-title = "GitHub"
+title = "🐱 GitHub"
 url = "https://github.com/iamb4uc/"
 
 [[entries]]
-title = "Donate"
+title = "💰 Donate"
 url = "/donate/"
 
 [[entries]]
-title = "Posts"
+title = "📔 Posts"
 
     [entries.post_list]
     limit = 3
@@ -24,10 +24,10 @@ title = "Posts"
     show_more_url = "post"
 
 [[entries]]
-title = "Posts by tags"
+title = "🧷 Posts by tags"
 url = "/tags/"
 
 [[entries]]
-title = "RSS"
+title = "🔗 RSS"
 url = "index.xml"
 
