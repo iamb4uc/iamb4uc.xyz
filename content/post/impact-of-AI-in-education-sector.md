@@ -45,14 +45,3 @@ on the usage of AI technology. However, this news
 shows the importance of considering the potential
 risks associated with AI technology and taking
 measures to mitigate them.
-
-In conclusion, the use of AI technology in
-education, such as chatbots like ChatGPT, can have
-many benefits for students. However, it is
-important to consider the potential risks
-associated with its use and to take measures to
-mitigate them. Educators and institutions must
-weigh the pros and cons of AI-assisted education
-and use it in a way that best serves the needs of
-their students.
-
