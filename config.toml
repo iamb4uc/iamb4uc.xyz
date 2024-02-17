@@ -1,6 +1,6 @@
 baseURL = 'http://iamb4uc.xyz'
 languageCode = 'en-us'
-title = ""
+title = "🏠 Home"
 
 [module]
   [module.hugoVersion]
@@ -18,14 +18,15 @@ title = ""
     lineNoStart = 1
     lineNos = false
     lineNumbersInTable = true
-    style = 'manni'
+    # style = 'murphy'
+    style = 'algol'
     tabWidth = 4
 
 [params]
   [params.theme_config]
     appearance = "auto"
-    back_home_text = "home"
-    date_format = "02-01-2006"
+    back_home_text = "🏠"
+    date_format = "01-2006"
 
 [privacy]
   [privacy.disqus]
