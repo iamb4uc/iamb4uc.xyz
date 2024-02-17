@@ -7,8 +7,31 @@ title = "🗺️ Projects"
 url = "/projects/"
 
 [[entries]]
-title = "🐱 GitHub"
-url = "https://github.com/iamb4uc/"
+title = "🔗 Links"
+
+    [[entries.entries]]
+    title = "🔗 GitHub"
+    url = "https://github.com/iamb4uc/"
+
+    [[entries.entries]]
+    title = "🔗 X / Twitter"
+    url = "https://twitter.com/iamb4uc/"
+
+    [[entries.entries]]
+    title = "🔗 LinkedIn"
+    url = "https://linkedin.com/in/iamb4uc"
+
+    [[entries.entries]]
+    title = "📨 Mail"
+    url = "mailto:swapnil@iamb4uc.xyz"
+
+    [[entries.entries]]
+    title = "🔒 GPG Key"
+    url = "/files/swapnil@iamb4uc.xyz.gpg"
+
+[[entries]]
+title = "📚 Resume"
+url = "/resume.pdf"
 
 [[entries]]
 title = "💰 Donate"
