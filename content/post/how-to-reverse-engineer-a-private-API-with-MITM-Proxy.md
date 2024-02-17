@@ -1,12 +1,12 @@
 ---
-title: "How to Reverse Engineer a Private API With MITM Proxy"
+title: "Reverse-Engineering Private APIs with MITM Proxy"
 date: 2023-11-14T22:49:27+05:30
 draft: false
 description: 
 tags: [blog, cybersecurity, reverse engineering]
 ---
 
-<div id="disclaimer" style="text-align: center; color: red;"><b>Disclaimer: This is for educational purposes, do not abuse this method.</b></div>
+<div class="dsclmr"><b>Disclaimer: This is for educational purposes, do not abuse this method.</b></div>
 
 Developers can often struggle to find the data they need for their personal projects due to certain services locking down their API’s.
 
