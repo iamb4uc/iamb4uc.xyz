@@ -51,6 +51,10 @@ title = "🧷 Posts by tags"
 url = "/tags/"
 
 [[entries]]
+title = "📔 Notes"
+url = "https://notes.iamb4uc.xyz"
+
+[[entries]]
 title = "🔗 RSS"
 url = "index.xml"
 
