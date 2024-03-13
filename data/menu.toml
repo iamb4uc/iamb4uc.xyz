@@ -7,6 +7,11 @@ title = "🗺️ Projects"
 url = "/projects/"
 
 [[entries]]
+title = "📚 Resume"
+url = "/resume.pdf"
+
+
+[[entries]]
 title = "🔗 Links"
 
     [[entries.entries]]
@@ -30,14 +35,6 @@ title = "🔗 Links"
     url = "/files/swapnil@iamb4uc.xyz.gpg"
 
 [[entries]]
-title = "📚 Resume"
-url = "/resume.pdf"
-
-[[entries]]
-title = "💰 Donate"
-url = "/donate/"
-
-[[entries]]
 title = "📔 Posts"
 
     [entries.post_list]
@@ -54,3 +51,6 @@ url = "/tags/"
 title = "🔗 RSS"
 url = "index.xml"
 
+[[entries]]
+title = "💰 Donate"
+url = "/donate/"
