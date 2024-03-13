@@ -20,3 +20,7 @@ Ethereum: 0x2F78287646Acd6e3D40cCb6403C7d2b4b663dE48
 ```html
 Kofi: https://www.buymeacoffee.com/b4uc
 ```
+
+```html
+UPI: iamb4uc@axl
+```
