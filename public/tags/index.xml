@@ -1,92 +1,89 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on </title>
-    <link>http://iamb4uc.xyz/tags/</link>
-    <description>Recent content in Tags on </description>
+    <title>Tags on 🏠 Home</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on 🏠 Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 May 2023 09:34:57 +0530</lastBuildDate><atom:link href="http://iamb4uc.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Feb 2024 20:29:30 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI-rant</title>
-      <link>http://iamb4uc.xyz/tags/ai-rant/</link>
-      <pubDate>Wed, 17 May 2023 09:34:57 +0530</pubDate>
-      
-      <guid>http://iamb4uc.xyz/tags/ai-rant/</guid>
+      <title>Blog</title>
+      <link>http://localhost:1313/tags/blog/</link>
+      <pubDate>Sat, 17 Feb 2024 20:29:30 +0530</pubDate>
+      <guid>http://localhost:1313/tags/blog/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>blog</title>
-      <link>http://iamb4uc.xyz/tags/blog/</link>
-      <pubDate>Wed, 17 May 2023 09:34:57 +0530</pubDate>
-      
-      <guid>http://iamb4uc.xyz/tags/blog/</guid>
+      <title>Cybersecurity</title>
+      <link>http://localhost:1313/tags/cybersecurity/</link>
+      <pubDate>Sat, 17 Feb 2024 20:29:30 +0530</pubDate>
+      <guid>http://localhost:1313/tags/cybersecurity/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>selfImprovement</title>
-      <link>http://iamb4uc.xyz/tags/selfimprovement/</link>
+      <title>Foss</title>
+      <link>http://localhost:1313/tags/foss/</link>
+      <pubDate>Sat, 17 Feb 2024 20:29:30 +0530</pubDate>
+      <guid>http://localhost:1313/tags/foss/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech</title>
+      <link>http://localhost:1313/tags/tech/</link>
+      <pubDate>Sat, 17 Feb 2024 20:29:30 +0530</pubDate>
+      <guid>http://localhost:1313/tags/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorial</title>
+      <link>http://localhost:1313/tags/tutorial/</link>
+      <pubDate>Sat, 17 Feb 2024 20:29:30 +0530</pubDate>
+      <guid>http://localhost:1313/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reverse Engineering</title>
+      <link>http://localhost:1313/tags/reverse-engineering/</link>
+      <pubDate>Tue, 14 Nov 2023 22:49:27 +0530</pubDate>
+      <guid>http://localhost:1313/tags/reverse-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SelfImprovement</title>
+      <link>http://localhost:1313/tags/selfimprovement/</link>
       <pubDate>Mon, 15 May 2023 20:25:15 +0530</pubDate>
-      
-      <guid>http://iamb4uc.xyz/tags/selfimprovement/</guid>
+      <guid>http://localhost:1313/tags/selfimprovement/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>foss</title>
-      <link>http://iamb4uc.xyz/tags/foss/</link>
-      <pubDate>Sat, 18 Feb 2023 04:22:10 +0530</pubDate>
-      
-      <guid>http://iamb4uc.xyz/tags/foss/</guid>
+      <title>AI-Rant</title>
+      <link>http://localhost:1313/tags/ai-rant/</link>
+      <pubDate>Fri, 13 Jan 2023 22:38:31 +0530</pubDate>
+      <guid>http://localhost:1313/tags/ai-rant/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>tech</title>
-      <link>http://iamb4uc.xyz/tags/tech/</link>
-      <pubDate>Sat, 18 Feb 2023 04:22:10 +0530</pubDate>
-      
-      <guid>http://iamb4uc.xyz/tags/tech/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Philosophy</title>
-      <link>http://iamb4uc.xyz/tags/philosophy/</link>
+      <link>http://localhost:1313/tags/philosophy/</link>
       <pubDate>Sat, 10 Dec 2022 12:46:31 +0530</pubDate>
-      
-      <guid>http://iamb4uc.xyz/tags/philosophy/</guid>
+      <guid>http://localhost:1313/tags/philosophy/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>torrent</title>
-      <link>http://iamb4uc.xyz/tags/torrent/</link>
+      <title>Torrent</title>
+      <link>http://localhost:1313/tags/torrent/</link>
       <pubDate>Sun, 25 Sep 2022 10:13:11 +0530</pubDate>
-      
-      <guid>http://iamb4uc.xyz/tags/torrent/</guid>
+      <guid>http://localhost:1313/tags/torrent/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tutorial</title>
-      <link>http://iamb4uc.xyz/tags/tutorial/</link>
-      <pubDate>Sun, 25 Sep 2022 10:13:11 +0530</pubDate>
-      
-      <guid>http://iamb4uc.xyz/tags/tutorial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>neovim</title>
-      <link>http://iamb4uc.xyz/tags/neovim/</link>
+      <title>Neovim</title>
+      <link>http://localhost:1313/tags/neovim/</link>
       <pubDate>Sun, 03 Jul 2022 08:48:38 +0530</pubDate>
-      
-      <guid>http://iamb4uc.xyz/tags/neovim/</guid>
+      <guid>http://localhost:1313/tags/neovim/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

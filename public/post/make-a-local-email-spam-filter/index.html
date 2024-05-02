@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="cache-control" content="max-age=604800">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <meta name="description" content="In this we will be creating a spam filter using a Raspberry Pi to remove all the incoming spam messages.
+This assumes that you already have a fully working Raspberry Pi with any of the Linux distros available with Systemd as an init service. Note:
+This only works for unmonitored clients such as thunderbird and other offline FOSS applications. I have not tried it on online email clients like Gmail and other proprietary spying websites."> 
+
+  <title>
+    
+    Make a Local Email Spam Filter
+    
+  </title>
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+  <link rel="me" href="https://mastodon.social/@b4uc" />
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  
+  
+  
+  <link rel="stylesheet" href="/main.1e3e82b21af9c80d11d8972c03a72b0391aea8d27ce7c89f6e6ad6bee0b1faed0008d592fd5a7676b57bb3034f7638994b62b3a24983d7265d8f2f71a3874ca0.css" integrity="sha512-Hj6Cshr5yA0R2JcsA6crA5GuqNJ858ifbmrWvuCx&#43;u0ACNWS/Vp2drV7swNPdjiZS2KzokmD1yZdjy9xo4dMoA==" />
+</head>
+<body a="auto">
+    <main class="page-content" aria-label="Content">
+        <div class="w"> <a class="house" href="/">🏠</a>
+
+
+
+<article>
+    <header>
+        <h1>Make a Local Email Spam Filter</h1>
+    </header>
+    
+    
+    
+    
+    
+
+    <p>In this we will be creating a spam filter using a Raspberry Pi
+to remove all the incoming spam messages.</p>
+<div class="dsclmr">
+This assumes that you already have a fully working
+Raspberry Pi with any of the Linux distros available
+with Systemd as an init service.
+</div>
+<blockquote>
+<p><strong>Note:</strong></p>
+<p><em>This only works for unmonitored clients such as thunderbird and other offline FOSS applications. I have not tried it on online email clients like Gmail and other proprietary spying websites.</em></p>
+</blockquote>
+<p>So, all that asides let&rsquo;s make a spam filter that filters emails
+every 10 minute.</p>
+<p>When it determines something as Spam, it creates an email
+with the Spam attached in the Spam folder. ISBG fills
+the email body with the assessment results and attaches
+the SPAM to the new email (disarm nasty things like tracking).</p>
+<h3 id="install-spam-assassin-and-enable-it-to-run-as-a-service">Install Spam-Assassin and enable it to run as a service</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sudo apt-get install spamassassin
+</span></span><span style="display:flex;"><span>sudo systemctl <span style="font-weight:bold;font-style:italic">enable</span> spamassassin.service
+</span></span></code></pre></div><h3 id="check">Check</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sudo service --status-all <span style="color:#888;font-style:italic">#spamassasin should be in that list.</span>
+</span></span></code></pre></div><h3 id="configure-spam-assassin">Configure Spam-Assassin</h3>
+<p>In order to mark spam email with <code>*****SPAM*****</code> in
+the subject, go to the <code>/etc/spamassassin/local.cf</code></p>
+<p>Uncomment the part that does that and make a change to
+contact and hostname information (system-wide setting):</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#888;font-style:italic"># Add *****SPAM***** to the Subject header of spam e-mails</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>rewrite_header Subject *****SPAM*****
+</span></span><span style="display:flex;"><span>report_contact isbg@SpamPi.net
+</span></span><span style="display:flex;"><span>report_hostname SpamPi.net
+</span></span></code></pre></div><p>Then go to the local pi user directory and find
+<code>/home/doomgate/.spamassassin/user_prefs</code>. This helps prevents
+changes due to upgrades of Spamassassin You can set the
+scoring for SPAM a bit more aggressive:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#888;font-style:italic"># Set the threshold at which a message is considered spam (default: 5.0)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>required_score 2.8
+</span></span></code></pre></div><p>Also added whitelists and discovered not to use <code>&quot;</code> or
+<code>,</code> signs. I gave the example for blacklisting in commented
+style:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#888;font-style:italic"># Whitelist and blacklist addresses are now file-glob-style patterns, so</span>
+</span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"># &#34;friend@somewhere.com&#34;, &#34;*@isp.com&#34;, or &#34;*.domain.net&#34; will all work.</span>
+</span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"># Added note do not use the quotes and comma and multiple lines with keyword are allowed</span>
+</span></span><span style="display:flex;"><span>whitelist_from someone@coldmail.com news@somecompany.com
+</span></span><span style="display:flex;"><span>whitelist_from transactions@notice.somecompany.com
+</span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic">#blacklist_from thebad@badhost.com</span>
+</span></span></code></pre></div><h3 id="installing-isbg">Installing ISBG.</h3>
+<p>Make sure you have pip3 installed (corresponding with Python3 which we check as well). Cause we will be installing this python3 package called <a href="https://pypi.org/project/isbg/">isbg</a>.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sudo apt-get install python3
+</span></span><span style="display:flex;"><span>sudo apt-get -y install python3-pip
+</span></span><span style="display:flex;"><span>sudo pip3 install isbg
+</span></span></code></pre></div><p>Almost there&hellip;</p>
+<p>Actually we are done&hellip; Try running it:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>isbg --help
+</span></span></code></pre></div><p>OK, just to get an idea of your IMAP structure run this
+to get a list (<em>Note: you can append the <code>--savepw</code> to
+have <code>isbg</code> remember your password in a local obfuscated
+file. My Raspberry is not seen from the internet but
+think twice about your setup here</em>)</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>isbg --verbose-mails --imaphost <span style="color:#666;font-style:italic">&lt;&lt;Provider_IMAP</span>_HOSTname&gt;&gt; --imapuser &lt;&lt;USER_as_you_would_logon_in_webmail&gt;&gt; --imapport &lt;&lt;YourISPKnows&gt;&gt; --imaplist
+</span></span></code></pre></div><p>Since I use email on my mobile device in POP3 mode
+(I like a mail archive while on the road) and my desktop
+in POP3 mode, I figured it would be best to have the
+output written to my Spam folder and create an extra
+IMAP account of the existing email account on my mobile
+device. From each email address I now have an IMAP version.
+That way I can monitor the IMAP &lsquo;Spam&rsquo; folder. If something
+gets caught as SPAM that should not be there, I can read
+it, forward it to an unmonitored POP3 email box and also
+make changes to the settings of SpamAssassin on the Raspberry.</p>
+<h3 id="configuring-done-time-to-setup-a-cron-job-that-detects-spam-messages-every-10-minutes">Configuring done. Time to setup a cron-job that detects spam messages every 10 minutes.</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>crontab -e
+</span></span></code></pre></div><p>Does the rest. Do not forget to mark your script as executable AND include a PATH variable in the Crontab.
+So this is my Crontab:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#888;font-style:italic"># Set PATH variables in this crontab</span>
+</span></span><span style="display:flex;"><span><span style="color:#666;font-weight:bold;font-style:italic">PATH</span>=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+</span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"># m  h dom mon dow   command</span>
+</span></span><span style="display:flex;"><span>*/10 * * * * bash /home/doomgate/isbg/isbg_washer.sh
+</span></span></code></pre></div><p>Also for testing purposes I added a rule in the
+<code>user_prefs</code>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#888;font-style:italic"># Added test to provoke a message to become SPAM for testing purposes</span>
+</span></span><span style="display:flex;"><span>body LOCAL_MAKE_SPAM_RULE    /<span style="color:#666;font-style:italic">\b</span>This triggers it<span style="color:#666;font-style:italic">\b</span>/i
+</span></span><span style="display:flex;"><span>score LOCAL_MAKE_SPAM_RULE  101.1
+</span></span><span style="display:flex;"><span>describe LOCAL_MAKE_SPAM_RULE     <span style="font-weight:bold;text-decoration:underline">if</span> text is seen <span style="font-weight:bold;text-decoration:underline">then</span> message is SPAM
+</span></span></code></pre></div><p>Also. I like the SPAMhaus list and think the default
+scores are a bit low. Override them in <code>user_prefs</code> if
+you like:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#888;font-style:italic"># UPGRADING scores of SPAMHaus listing</span>
+</span></span><span style="display:flex;"><span>score RCVD_IN_PBL 5.0
+</span></span><span style="display:flex;"><span>score RCVD_IN_XBL 5.0
+</span></span><span style="display:flex;"><span>score RCVD_IN_SBL 5.0
+</span></span><span style="display:flex;"><span>score RCVD_IN_CSS 5.0
+</span></span></code></pre></div><p>Finishing my setup here&rsquo;s a small script with commands that runs all the code required.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#888;font-weight:bold">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#888;font-weight:bold"></span><span style="color:#888;font-style:italic">#exec &amp;&gt;/home/pi/isbg/cronjob.log    # you could uncomment this to look at CRON output if something is not working</span>
+</span></span><span style="display:flex;"><span>isbg --imaphost <span style="color:#666;font-style:italic">&lt;&lt;Provider_IMAP</span>_HOSTname&gt;&gt; --imapuser &lt;&lt;USER_as_you_would_logon_in_webmail&gt;&gt; --imapport &lt;&lt;YourISPKnows&gt;&gt; --partialrun 10 --spaminbox Spam --delete --expunge
+</span></span></code></pre></div>
+</article>
+
+
+            <hr>
+            <center>
+                &#127279; <a href="https://www.gnu.org/licenses/copyleft.en.html">Copyleft</a> 2022-2023 <a
+                    href="/">B4UC</a>.
+                No rights reserved
+                <br>
+                <br>
+                <div class="webring">
+                    <a href="https://gnulinuxindia.org/direct.html?name=b4uc&dir=prev" alt="ᐊ ">ᐊ </a>
+                    <a href="https://gnulinuxindia.org/members.html/" target="_blank"
+                        alt="Visit GNU/LINUX INDIA">GNU/LINUX INDIA
+                        WEBRING</a>
+                    <a href="https://gnulinuxindia.org/direct.html?name=b4uc&dir=next" alt=" ᐅ"> ᐅ</a>
+                </div>
+                <br>
+                <br>
+                <div class="fossicons">
+                    <a href="https://www.gnu.org/" target="_blank"><img src="/img/fosslinks/gnubanner.gif"
+                            alt="gnu.org"></a>
+                    <a href="https://www.freebsd.org/" target="_blank"><img src="/img/fosslinks/freebsd.gif"
+                            alt="freebsd.org">
+                    </a>
+                    <a href="https://www.torproject.org/" target="_blank"><img src="/img/fosslinks/tor.gif"
+                            alt="torproject.org"></a>
+                    <a href="https://geti2p.net" target="_blank"><img src="/img/fosslinks/i2p.gif" alt="geti2p.net"></a>
+                    <a href="https://www.getmonero.org/" target="_blank"><img src="/img/fosslinks/monero-now.gif"
+                            alt="getmonero.org"></a>
+                    <a href="https://wiby.me" target="_blank"><img src="/img/fosslinks/wiby.gif" alt="wiby.me"></a>
+                    <a href="https://www.mozilla.org/en-US/firefox/switch/" target="_blank"><img
+                            src="/img/fosslinks/same-shit.gif" alt="Ditch Chrome"></a>
+                    <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank"><img
+                            src="/img/fosslinks/fftake.gif" alt="Get Firefox"></a>
+                    <a href="https://stallman.org/articles/on-hacking.html" target="_blank"><img
+                            src="/img/fosslinks/hacker-power.gif" alt="Stallman On Hacking"></a>
+                    <img src="/img/fosslinks/nocookie.gif" alt="This website uses no cookies">
+                    <img src="/img/fosslinks/internetprivacy.gif" alt="Also respects your privacy">
+                    <a href="https://duckduckgo.com/" target="_blank"><img src="/img/fosslinks/duckduckgo.png"
+                            alt="Ditch Google"></a>
+                    <a href="mailto:swapnil@iamb4uc.xyz" target="_blank"><img src="/img/fosslinks/mailput.gif"
+                            alt="Email Me"></a>
+                    <a href="https://www.gnu.org/gnu/linux-and-gnu.en.html" target="_blank"><img
+                            src="/img/fosslinks/made_on_gnu_linux.png" alt="Freedom Land approved"></a>
+                    <a href="https://vim.org" target="_blank"><img src="/img/fosslinks/vi-vim.gif"
+                            alt="Written with vim"></a>
+                    <a href="https://voidlinux.org" target="_blank"><img src="/img/fosslinks/voidlinux.gif"
+                            alt="I use void retard"></a>
+                    <a href="https://gimp.org" target="_blank"><img src="/img/fosslinks/gimp.gif"
+                            alt="All graphics are edited by GIMP"></a>
+                </div>
+            </center>
+        </div>
+    </main>
+
+</body>
+
+</html>

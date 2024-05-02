@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reverse Engineering on 🏠 Home</title>
+    <link>http://localhost:1313/tags/reverse-engineering/</link>
+    <description>Recent content in Reverse Engineering on 🏠 Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Nov 2023 22:49:27 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/reverse-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reverse-Engineering Private APIs with MITM Proxy</title>
+      <link>http://localhost:1313/post/how-to-reverse-engineer-a-private-api-with-mitm-proxy/</link>
+      <pubDate>Tue, 14 Nov 2023 22:49:27 +0530</pubDate>
+      <guid>http://localhost:1313/post/how-to-reverse-engineer-a-private-api-with-mitm-proxy/</guid>
+      <description>Disclaimer: This is for educational purposes, do not abuse this method. Developers can often struggle to find the data they need for their personal projects due to certain services locking down their API’s.&#xA;So I wanted to show you a way you can get the data you need.&#xA;What is MITM Proxy and how does it work? MITM stands for Man-in-the-Middle and mitmproxy is exactly that. It allows you to send data through a proxy that acts as a man-in-the-middle so you can read the request and responses being sent to and from the server.</description>
+    </item>
+  </channel>
+</rss>
