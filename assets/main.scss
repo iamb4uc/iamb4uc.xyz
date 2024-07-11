@@ -1,52 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lilita+One&family=Noto+Color+Emoji&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+// General styles
 html,
 body {
-    color: black;
-    background: #f7f7f2;
-    font-style: normal;
+  color: black;
+  background: #f7f7f2;
+  font-style: normal;
+  font-family: "Noto Sans", "Noto Color Emoji", sans-serif;
+  // font-size: 90%;
+  line-height: 1.4;
+  margin: 0;
+  min-height: 100%;
+  overflow-wrap: break-word;
+  text-align: justify;
 }
 
+
 body a {
-    text-decoration: none;
-    color: #005772;
+  text-decoration: none;
+  color: #005772;
 }
 
 .hglt a {
-    background-color: #afd8d8;
-    color: #011835;
-    border-radius: 5px;
-    padding: 3px 7px;
+  background-color: #afd8d8;
+  color: #011835;
+  border-radius: 10px;
+  padding: 3px 7px;
 }
 
 body li {
-    margin: 10px;
+  margin: 0.4rem 0;
 }
 
-html {
-    height: 100%;
+*:target {
+  background: yellow;
 }
 
-body {
-    font-family: "Courier Prime", monospace;
-    font-size: 90%;
-    line-height: 1.4;
-    margin: 0;
-    min-height: 100%;
-    overflow-wrap: break-word;
-    text-align: justify;
+// Container width
+.w {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
-.webring {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-}
-
+// Headings
 h1 {
-    // text-align: center;
-    display: flex;
-    font-size: 2em;
+  font-size: 2em;
 }
 
 h2,
@@ -54,109 +53,141 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 1.2em;
+  margin-top: 1.2em;
 }
 
+// Horizontal rule
 hr {
-    margin: 2rem 0;
+  margin: 2rem 0;
+  text-align: center;
+  border: 0;
 
+  &:before {
+    content: "--- END";
+  }
+
+  &:after {
+    content: attr(data-content) " ---";
+  }
 }
 
-p {
-    margin: 10px 0;
-}
-
-li {
-    margin: 0.4rem 0;
-}
-
-*:target {
-    background: yellow;
-}
-
-.w {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 50px;
-}
-
-hr {
-    text-align: center;
-    border: 0;
-
-    &:before {
-        content: "--- END";
-    }
-
-    &:after {
-        content: attr(data-content) " ---";
-    }
-}
-
+// Tables
 table {
-    width: 100%;
+  width: 100%;
+  border: thin solid black;
+  border-collapse: collapse;
 }
 
-table,
 th,
 td {
-    border: thin solid black;
-    border-collapse: collapse;
-    padding: 0.4rem;
+  padding: 0.4rem;
 }
 
+// Code blocks
 pre {
-    margin: 10px;
-    padding: 10px 15px;
-    border-radius: 5px;
-    border: 2px solid black;
-    overflow-x: auto;
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 2px solid black;
+  overflow-x: auto;
+  box-shadow: 0px 0px 10px #c7c7a2;
 }
 
 code {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 90%;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 90%;
 }
 
 code.has-jax {
-    -webkit-font-smoothing: antialiased;
-    background: inherit !important;
-    border: none !important;
-    font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  background: inherit !important;
+  border: none !important;
+  font-size: 100%;
 }
 
+// Blockquote
 blockquote {
-    border: solid #444;
-    padding: 2rem;
-    margin: 10px 0;
-    border-radius: 5px;
+  border: solid #444;
+  padding: 2rem;
+  margin: 10px 0;
+  border-radius: 5px;
 
-    p {
-        margin: 0;
-    }
+  p {
+    margin: 0;
+  }
 }
 
+// Images
 img {
-    max-width: 100%;
-    align-content: center;
-    border-radius: 5px;
-    margin: 0 auto;
+  max-width: 100%;
+  align-content: center;
+  border-radius: 5px;
+  margin: 0 auto;
 }
 
+// Figure captions
 figcaption {
-    text-align: center;
-    opacity: 0.5;
+  text-align: center;
+  opacity: 0.5;
 }
 
+// Disclaimer section
 .dsclmr {
-    padding: 10px;
-    color: #FCF8F0;
-    background: #c35d5d;
-    border-radius: 5px;
-    text-align: center;
+  padding: 10px;
+  color: #fcf8f0;
+  background: #c35d5d;
+  border-radius: 5px;
+  text-align: center;
 }
 
+// Flex container for specific class
 .house {
-    font-size: 2em;
-    display: flex;
+  font-size: 2em;
+  display: flex;
+}
+
+// Responsive webring
+.webring {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+// Mobile adjustments
+@media (max-width: 768px) {
+
+  // Adjustments for smaller screens
+  .w {
+    padding: 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.5em;
+  }
+
+  blockquote {
+    padding: 1.5rem;
+  }
+
+  img {
+    margin-bottom: 1rem;
+  }
+
+  .dsclmr {
+    font-size: 0.8em;
+  }
 }
