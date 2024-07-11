@@ -2,9 +2,9 @@
 title = "🤵 About/Contact"
 url = "/about/"
 
-[[entries]]
-title = "🗺️ Projects"
-url = "/projects/"
+# [[entries]]
+# title = "🗺️ Projects"
+# url = "/projects/"
 
 [[entries]]
 title = "📚 Resume"
