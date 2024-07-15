@@ -3,6 +3,7 @@
 
 <article>
     <header>
+        <a class="house" href="{{ "/" | relURL }}"><i class="fa-solid fa-house"></i></i></a>
         <h1>{{ .Title }}</h1>
     </header>
     <!-- <p class="post-meta"> -->
@@ -11,7 +12,9 @@
     <!--     </time> -->
     <!-- </p> -->
 
-    {{ .Content }}
+    <div class="content">
+        {{ .Content }}
+    </div>
 </article>
 
 {{ end }}

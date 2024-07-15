@@ -1,9 +1,10 @@
 {{ define "main" }}
 
 <header>
-    <h1>{{ $.Site.Title }}</h1>
+    <a class="house" href="{{ "/" | relURL }}"><i class="fa-solid fa-house"></i></i></a>
+    <h1>{{ $.Site.Title }}</i></h1>
     {{- if $.Site.Params.theme_config.show_description -}}
-        <p>{{ $.Site.Params.description }}</p>
+    <p>{{ $.Site.Params.description }}</p>
     {{- end -}}
 </header>
 {{ .Content }}

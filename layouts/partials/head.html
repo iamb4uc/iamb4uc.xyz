@@ -1,28 +1,31 @@
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta http-equiv="cache-control" content="max-age=604800">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  {{ if .IsPage }}
-  <meta name="description" content="{{ .Summary }}"> {{ end }}
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="cache-control" content="max-age=604800">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {{ if .IsPage }}
+    <meta name="description" content="{{ .Summary }}"> {{ end }}
 
-  <title>
-    {{ if not .IsHome }}
-    {{ .Title }}
-    {{ else }}
-    {{ $.Site.Title }}
-    {{ end }}
-  </title>
+    <title>
+        {{ if not .IsHome }}
+        {{ .Title }}
+        {{ else }}
+        {{ $.Site.Title }}
+        {{ end }}
+    </title>
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/favicon/site.webmanifest">
-  <link rel="me" href="https://mastodon.social/@b4uc" />
-  <link rel="shortcut icon" type="image/x-icon" href="{{ $.Site.Params.favicon | relURL }}" />
-  {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
-  {{ $sass := resources.Get "main.scss" }}
-  {{ $style := $sass | resources.ToCSS $options | resources.Fingerprint "sha512" }}
-  <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" integrity="{{ $style.Data.Integrity }}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="me" href="https://mastodon.social/@b4uc" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ $.Site.Params.favicon | relURL }}" />
+    <link rel="stylesheet" href="/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="/fontawesome/css/brands.css" />
+    <link rel="stylesheet" href="/fontawesome/css/solid.css" />
+    {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
+    {{ $sass := resources.Get "main.scss" }}
+    {{ $style := $sass | resources.ToCSS $options | resources.Fingerprint "sha512" }}
+    <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" integrity="{{ $style.Data.Integrity }}" />
 </head>
