@@ -18,8 +18,7 @@ with Systemd as an init service.
 
 
 > **Note:**
->
-> *This only works for unmonitored clients such as thunderbird and other offline FOSS applications. I have not tried it on online email clients like Gmail and other proprietary spying websites.*
+> This only works for unmonitored clients such as thunderbird and other offline FOSS applications. I have not tried it on online email clients like Gmail and other proprietary spying websites.
 
 
 
