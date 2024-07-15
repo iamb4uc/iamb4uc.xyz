@@ -1,41 +1,38 @@
 [[entries]]
-title = "🤵 About/Contact"
+title = "<i class='fa-solid fa-circle-info'></i> About/Contact"
 url = "/about/"
 
-# [[entries]]
-# title = "🗺️ Projects"
-# url = "/projects/"
 
 [[entries]]
-title = "📚 Resume"
-url = "/resume.pdf"
+title = "<i class='fa-solid fa-file'></i> Resume"
+url = "/resume/"
 
 
 [[entries]]
-title = "🔗 Links"
+title = "<i class='fa-solid fa-arrow-up-right-from-square'></i> Links"
 
     [[entries.entries]]
-    title = "🔗 GitHub"
+    title = "<i class='fa-brands fa-github'></i> GitHub"
     url = "https://github.com/iamb4uc/"
 
     [[entries.entries]]
-    title = "🔗 X / Twitter"
+    title = "<i class='fa-brands fa-square-x-twitter'></i> Twitter / X"
     url = "https://twitter.com/iamb4uc/"
 
     [[entries.entries]]
-    title = "🔗 LinkedIn"
+    title = "<i class='fa-brands fa-linkedin'></i> LinkedIn"
     url = "https://linkedin.com/in/iamb4uc"
 
     [[entries.entries]]
-    title = "📨 Mail"
+    title = "<i class='fa-solid fa-envelope'></i> Mail"
     url = "mailto:swapnil@iamb4uc.xyz"
 
     [[entries.entries]]
-    title = "🔒 GPG Key"
+    title = "<i class='fa-solid fa-lock'></i> GPG Key"
     url = "/files/swapnil@iamb4uc.xyz.gpg"
 
 [[entries]]
-title = "📔 Posts"
+title = "<i class='fa-solid fa-note-sticky' style='color: $background_color;'></i> Posts"
 
     [entries.post_list]
     limit = 5
@@ -44,13 +41,13 @@ title = "📔 Posts"
     show_more_url = "post"
 
 [[entries]]
-title = "🧷 Posts by tags"
+title = "<i class='fa-solid fa-tags'></i> Posts by tags"
 url = "/tags/"
 
 [[entries]]
-title = "🔗 RSS"
+title = "<i class='fa-solid fa-square-rss'></i> RSS"
 url = "index.xml"
 
 [[entries]]
-title = "💰 Donate"
+title = "<i class='fa-solid fa-money-bill'></i> Donate"
 url = "/donate/"
