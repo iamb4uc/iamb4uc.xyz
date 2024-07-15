@@ -1,62 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lilita+One&family=Noto+Color+Emoji&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'fonts';
+@import 'mobile';
 
-// General styles
+
 html,
 body {
   color: black;
   background: #f7f7f2;
-  font-style: normal;
-  font-family: "Noto Sans", "Noto Color Emoji", sans-serif;
-  // font-size: 90%;
-  line-height: 1.4;
+  line-height: 1.5;
   margin: 0;
   min-height: 100%;
   overflow-wrap: break-word;
   text-align: justify;
-}
+  hyphens: auto;
+  word-break: break-word;
 
+  li {
+    margin: 0.3rem 0;
+  }
+
+}
 
 body a {
   text-decoration: none;
-  color: #005772;
-}
-
-.hglt a {
-  background-color: #afd8d8;
-  color: #011835;
-  border-radius: 10px;
-  padding: 3px 7px;
-}
-
-body li {
-  margin: 0.4rem 0;
+  color: #15313a;
 }
 
 *:target {
   background: yellow;
 }
 
-// Container width
 .w {
   max-width: 800px;
   margin: 0 auto;
   padding: 1rem;
 }
 
-// Headings
-h1 {
-  font-size: 2em;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 1.2em;
-}
-
-// Horizontal rule
 hr {
   margin: 2rem 0;
   text-align: center;
@@ -74,13 +52,33 @@ hr {
 // Tables
 table {
   width: 100%;
-  border: thin solid black;
+  border: 2px solid black;
   border-collapse: collapse;
 }
 
-th,
-td {
-  padding: 0.4rem;
+tr {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+li a {
+  text-decoration: none;
+  position: relative;
+  color: black;
+}
+
+ul {
+  padding-left: 5px;
+  list-style: circle;
+  margin-left: 25px;
+  position: relative;
+
+  li {
+    &:hover {
+      list-style: disc;
+    }
+  }
 }
 
 // Code blocks
@@ -93,22 +91,14 @@ pre {
   box-shadow: 0px 0px 10px #c7c7a2;
 }
 
-code {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 90%;
+.key {
+  text-align: center;
 }
 
-code.has-jax {
-  -webkit-font-smoothing: antialiased;
-  background: inherit !important;
-  border: none !important;
-  font-size: 100%;
-}
 
-// Blockquote
 blockquote {
   border: solid #444;
-  padding: 2rem;
+  padding: 1.5rem;
   margin: 10px 0;
   border-radius: 5px;
 
@@ -117,36 +107,30 @@ blockquote {
   }
 }
 
-// Images
 img {
   max-width: 100%;
   align-content: center;
   border-radius: 5px;
   margin: 0 auto;
+  box-shadow: 0px 0px 10px #c7c7a2;
 }
 
-// Figure captions
 figcaption {
   text-align: center;
   opacity: 0.5;
 }
 
-// Disclaimer section
 .dsclmr {
+  margin-bottom: 30px;
+  margin-top: 30px;
   padding: 10px;
   color: #fcf8f0;
-  background: #c35d5d;
+  background: #cc6666;
   border-radius: 5px;
   text-align: center;
+  text-transform: uppercase;
 }
 
-// Flex container for specific class
-.house {
-  font-size: 2em;
-  display: flex;
-}
-
-// Responsive webring
 .webring {
   display: flex;
   flex-wrap: wrap;
@@ -154,40 +138,63 @@ figcaption {
   gap: 1rem;
 
   @media (max-width: 768px) {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 }
 
-// Mobile adjustments
-@media (max-width: 768px) {
 
-  // Adjustments for smaller screens
-  .w {
-    padding: 0.5rem;
-  }
+header {
+  display: flex;
+  align-items: center;
+}
 
-  h1 {
-    font-size: 1.8em;
-  }
+header .house {
+  margin-right: 7px;
+}
 
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-size: 1.5em;
-  }
+header .house i {
+  font-size: 28px;
+}
 
-  blockquote {
-    padding: 1.5rem;
-  }
+header h1 {
+  margin: 0;
+  opacity: 0;
+  transform: translateX(20%);
+  animation: slideIn 0.4s forwards;
+}
 
-  img {
-    margin-bottom: 1rem;
-  }
+header a {
+  text-decoration: none;
+  color: black;
+}
 
-  .dsclmr {
-    font-size: 0.8em;
+
+h1 {
+  font-size: 2em;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.2em;
+}
+
+.house {
+  font-size: 2em;
+  display: flex;
+}
+
+.footer a {
+  color: black;
+  text-decoration: none;
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
