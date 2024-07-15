@@ -1,6 +1,6 @@
 baseURL = 'http://iamb4uc.xyz'
 languageCode = 'en-us'
-title = "🏠 Home"
+title = "Home"
 
 [module]
   [module.hugoVersion]
@@ -25,7 +25,7 @@ title = "🏠 Home"
 [params]
   [params.theme_config]
     appearance = "auto"
-    back_home_text = "🏠"
+    # back_home_text = "🏠"
     date_format = "01-2006"
 
 [privacy]
