@@ -6,13 +6,12 @@ description: "All things me"
 
 ![Header](/img/wp.gif)
 
-**Hello, I am Swapnil, an aspiring programmer and a cybersecurity student with a passion for UNIX-like operating systems as well as other Free-and-Open-source software and a knack for hardware tinkering, tho I am on a limit for that since I am unable to provide funding to big projects, aha (*cries internally*). I love digging into low-level details to understand how things really work, and using that knowledge to build robust, reliable software. Whether it's optimizing performance, improving security, or just exploring new possibilities, I'm always looking for ways to push the boundaries of what's possible with code.**
+**Hey there! I'm Swapnil, an aspiring programmer and cybersecurity student who loves diving into UNIX-like operating systems and other Free-and-Open-source software. I'm also a bit of a hardware tinkerer, though my budget doesn't always allow for big projects (*sigh*). I enjoy getting into the nitty-gritty of how things work and using that knowledge to build solid, reliable software. Whether it's boosting performance, enhancing security, or just exploring new tech, I'm always up for pushing the limits of what's possible with code.**
 
-Besides technology, I like improving myself in other aspects of life, like my social life and financial life. If I am not writing code, I am usually busy with improving myself, I might make my routine public one day so better subscribe to my [RSS](/index.xml) feed.
+When I'm not knee-deep in code, I’m working on improving other aspects of my life, like my social and financial skills. If I'm not coding, I'm usually busy with self-improvement projects. I might even share my routine someday, so feel free to subscribe to my [RSS](/index.xml) feed.
 
-All that aside, I do enjoy movies, music, anime, and books like a regular person, but won't even try to bring that up in a conversation unless someone genuinely asks me to. But if you are interested, you can check out my recommendations bellow:
+Outside of tech, I'm into movies, music, anime, and books. I don't usually bring these up unless someone asks, but if you're curious, check out my recommendations below:
 
 - [Anime/Manga](/anime/)
 - [Books](/book/)
-- [Tech I Use](/tiu/)
 
