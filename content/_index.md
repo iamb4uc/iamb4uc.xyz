@@ -6,8 +6,10 @@ description: "Home"
 
 ![Header](/img/main.gif)
 
-<div class="dsclmr"><b>Thanks for visiting, there are a lot of stuff here, feel free to check them out.</b></div>
+<div class="dsclmr">Hey there! Thanks for stopping by. There's a ton of cool stuff here, so take your time and explore.</div>
 
-Here, we talk about self-improvement, tech,
-productivity, many other shenanigans. Sometimes, I
-might share things other than tech, just subscribe to my RSS feed and get regular updates when I post something new 😃
+**We chat about Self-Improvement, Cybersecurity, DevOps,
+Programming, Productivity, and a bunch of other fun topics.
+Occasionally, I’ll share things outside the tech world
+too. Just subscribe to my RSS feed to stay in the loop
+with all my latest posts! <i class="fa-solid fa-person-walking"></i>**
