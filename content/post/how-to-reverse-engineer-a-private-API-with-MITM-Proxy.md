@@ -6,7 +6,7 @@ description:
 tags: [blog, cybersecurity, reverse engineering]
 ---
 
-<div class="dsclmr"><b>Disclaimer: This is for educational purposes, do not abuse this method.</b></div>
+<div class="dsclmr">Disclaimer: This is for educational purposes, do not abuse this method.</div>
 
 Developers can often struggle to find the data they need for their personal projects due to certain services locking down their API’s.
 
