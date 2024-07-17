@@ -58,11 +58,11 @@ Bypassing iPhone’s extra security
 
 Now you should be able to open up apps on your device and you will start seeing traffic popup in mitmweb
 
-![img1](/img/MITM1.png) 
+![img1](/img/MITM1.webp) 
 
 In our example we are capturing the data being sent to [Thingivese](https://thingiverse.com/) from the mobile app. If you look closely on the right hand side you will find the authentication header. In this header you will find the token being used to validate you as a user.
 
-![img2](/img/MITM2.png) 
+![img2](/img/MITM2.webp) 
 
 This is the token we can now use to query the API ourselves in our own personal application.
 
