@@ -16,12 +16,16 @@ title = "<i class='fa-solid fa-arrow-up-right-from-square'></i> Links"
     url = "https://github.com/iamb4uc/"
 
     [[entries.entries]]
+    title = "<i class='fa-brands fa-orcid'></i> ORCID"
+    url = "https://orcid.org/0009-0005-2010-926X"
+
+    [[entries.entries]]
     title = "<i class='fa-brands fa-square-x-twitter'></i> Twitter / X"
     url = "https://twitter.com/iamb4uc/"
 
     [[entries.entries]]
     title = "<i class='fa-brands fa-linkedin'></i> LinkedIn"
-    url = "https://linkedin.com/in/iamb4uc"
+    url = "https://linkedin.com/in/swapnil-iamb4uc"
 
     [[entries.entries]]
     title = "<i class='fa-solid fa-envelope'></i> Mail"
