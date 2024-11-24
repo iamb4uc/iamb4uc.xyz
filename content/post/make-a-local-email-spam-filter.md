@@ -7,6 +7,8 @@ tags: [blog, cybersecurity, foss, tech, tutorial]
 tableofcontent: true
 ---
 
+![](https://github.com/iamb4uc/wallpapers/blob/main/gruvbox/gruvbox_image4.png?raw=true)
+
 In this we will be creating a spam filter using a Raspberry Pi
 to remove all the incoming spam messages.
 
