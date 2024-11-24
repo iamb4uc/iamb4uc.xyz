@@ -4,7 +4,7 @@ draft: false
 description: "All about anime I like"
 ---
 
-![ ](/img/apu_band.gif)
+![](https://github.com/iamb4uc/wallpapers/blob/main/anime/36455.jpg?raw=true)
 
 1. **_Neon-Genesis Evangalion_**  
    One of my most favorite anime of all time, it was

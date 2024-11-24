@@ -4,6 +4,9 @@ draft: false
 description: "My book recommendations"
 ---
 
+
+![](https://github.com/iamb4uc/wallpapers/blob/main/cozy/1349195.png?raw=true)
+
 I don't want to explain myself why, I chose these,
 everyone has different preferences, but if you want
 to read something new tho, some of these are

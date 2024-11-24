@@ -6,6 +6,8 @@ description:
 tags: [blog, cybersecurity, reverse engineering]
 ---
 
+![](https://github.com/iamb4uc/wallpapers/blob/main/Watchdogs/wp4020159-dedsec-wallpapers.png?raw=true)
+
 <div class="dsclmr">Disclaimer: This is for educational purposes, do not abuse this method.</div>
 
 Developers can often struggle to find the data they need for their personal projects due to certain services locking down their API’s.
