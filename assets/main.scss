@@ -157,12 +157,6 @@ header .house i {
   font-size: 28px;
 }
 
-header h1 {
-  margin: 0;
-  opacity: 0;
-  transform: translateX(20%);
-  animation: slideIn 0.4s forwards;
-}
 
 header a {
   text-decoration: none;
@@ -190,11 +184,4 @@ h6 {
 .footer a {
   color: black;
   text-decoration: none;
-}
-
-@keyframes slideIn {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
 }

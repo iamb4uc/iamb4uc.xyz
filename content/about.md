@@ -10,6 +10,10 @@ description: "All things me"
 
 When I'm not knee-deep in code, I’m working on improving other aspects of my life, like my social and financial skills. If I'm not coding, I'm usually busy with self-improvement projects. I might even share my routine someday, so feel free to subscribe to my [RSS](/index.xml) feed.
 
+Check my life updates if you want to these are not super long just some updates I want to share that I cannot in other websites or other forums.
+
+- [Life Updates](/updates/)
+
 Outside of tech, I'm into movies, music, anime, and books. I don't usually bring these up unless someone asks, but if you're curious, check out my recommendations below:
 
 - [Anime/Manga](/anime/)
