@@ -36,7 +36,7 @@ title = "<i class='fa-solid fa-arrow-up-right-from-square'></i> Links"
     url = "/files/swapnil@iamb4uc.xyz.gpg"
 
 [[entries]]
-title = "<i class='fa-solid fa-note-sticky' style='color: $background_color;'></i> Posts"
+title = "<i class='fa-solid fa-pen-to-square'></i> Blogs"
 
     [entries.post_list]
     limit = 5
