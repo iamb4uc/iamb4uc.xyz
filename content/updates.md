@@ -1,6 +1,5 @@
 ---
 title: "Updates"
-date: 2025-02-05T21:33:26+05:30
 draft: false
 description: 
 tags: []
@@ -30,3 +29,21 @@ And about LLMs man these shits are like a weed infestation. Everywhere I go its 
 
 Anyway, I learnt that Unit tests and Test Driven Development sucks. Not that it is bad or anything, I hate writing tests before even starting out my actual project. It is boring. But I ain't a soy bitch to quit so gotta grind myself through these biyach.
 </code>
+
+
+## 2025-02-18: The deadline is arriving and its making me miserable
+
+<code>
+Well the deadline is arriving and I can't handle all these shit errors man. Its just too much for a single person. I literally started playing with this shit stack (React mostly) and handling js errors are so fucked up man. WTF is this language.
+
+Its like the language wants us to write bad code. The syntax is so dog shit and the error handling and it's out of the world features are nothing but are a pile of dog shit fr.
+
+Again, the documentation is sooo bad man.
+
+NEVER AGAIN, I am touching this language ever again.
+</code>
+
+> React is hype, a tangled mess,
+> Promises "simple," delivers stress.
+> Props drill deep, hooks confuse,
+> Debugging hell—good luck, you lose.
