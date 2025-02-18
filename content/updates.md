@@ -4,7 +4,7 @@ draft: false
 description: 
 tags: []
 ---
-<div class='dsclmr'>This is a general public life update that I would like to keep writing everyday. I use bad words here so go away bitch.</div>
+<div class='dsclmr'>This is a general public life update that I would like to keep writing everyday. I use bad words here so go away bitch. Also Its all fake.</div>
 
 ## 2025-02-10: I hate frontend development  
 
@@ -47,3 +47,19 @@ NEVER AGAIN, I am touching this language ever again.
 > Promises "simple," delivers stress.
 > Props drill deep, hooks confuse,
 > Debugging hell—good luck, you lose.
+
+
+## 2025-02-19: This day sucks but not more than the company I am working for
+
+<div class="dsclmr">
+Disclamer: This is a joke. I am a just an imaginary persona that makes up things. Do not take my blogs as any form of proof or anything. This includes the whole website in itself as well as any form of media I produce. I am purely doing it for entertainment purpose only.
+I WON'T BE ENTERTAINING ANY FORM OF LEGAL ISSUES JUST CAUSE OF SOME DUMB BLOG POST I MAKE.
+</div>
+
+<code>
+Well the company, I am working with for the past month or so has been grinding our team with endless task which I am not complaning about but the fact that its 2025-02-19 and I have not received my stippend yet is very frustrating. I know I am merely an intern at this company for the time being but still man. Have some respect for the image of the company. The company already has mediocre reviews on glassdoor or any other website. I know someday they gonna see this blog and will press charges but again. THIS IS NOT TO BE TAKEN TRUTH. I AM NOT BLAMING OR DEFAMING ANYONE OR ANY COMPANY WITH THIS BLOG POST SO SHUT UP.
+
+Anyways, we were already given a date by which our stippend would have been credited to our accounts but it is still not debited. 
+
+Fuck it. Bye
+</code>
