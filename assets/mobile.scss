@@ -1,7 +1,45 @@
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 
   body {
     font-size: 90%;
+    padding:10px;
+  }
+
+  .w{
+    max-width: 800px;
+    margin: auto;
+  }
+
+  table tr {
+    font-size: 80%;
+  }
+
+  ul {
+    margin-left: 15px;
+  }
+
+  .w {
+    padding: 0.5rem;
+  }
+
+  blockquote {
+    padding: 0.8rem;
+  }
+
+  img {
+    margin-bottom: 1rem;
+  }
+
+  .dsclmr {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 768px) {
+
+  body {
+    font-size: 80%;
+    padding:10px;
   }
 
   table tr {
