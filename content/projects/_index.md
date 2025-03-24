@@ -1,9 +1,13 @@
 ---
 title: "Projects"
 draft: false
-description: All of my projects in one page, these are all FOSS so feel free to use them whenever you need.
 ---
-![](/img/projects.gif)
+![](/img/night.gif)
+<center>
+
+***Currently This page is a WIP. Visit [my github to see the pinned projects](https://github.com/iamb4uc) that I have worked on.***
+
+</center>
 
 [**Dotfiles**](https://github.com/iamb4uc/dots.git):
 <div style="color: #003a00; font-size: 80%;">
