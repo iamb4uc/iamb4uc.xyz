@@ -1,39 +1,69 @@
 {{- $posts := "" -}}
 
 {{- if .section -}}
-{{- $posts = (where site.RegularPages "Section" .section) -}}
+  {{- $posts = (where site.RegularPages "Section" .section) -}}
 {{- else -}}
-{{- if (eq .context.Kind "taxonomy") -}}
-{{- $posts = .context.Pages -}}
-{{- else -}}
-{{- if (eq .context.Kind "term") -}}
-{{- $posts = .context.Data.Pages -}}
-{{- else -}}
-{{- $posts = site.RegularPages }}
-{{- end -}}
-{{- end -}}
+  {{- if (eq .context.Kind "taxonomy") -}}
+    {{- if (ne .context.RelPermalink "/tags/") -}}
+      {{- $posts = .context.Pages -}}
+    {{- end -}}
+  {{- else -}}
+    {{- if (eq .context.Kind "term") -}}
+      {{- $posts = .context.Data.Pages -}}
+    {{- else -}}
+      {{- $posts = site.RegularPages -}}
+    {{- end -}}
+  {{- end -}}
 {{- end -}}
 
-{{- $limit_exceeded:= "" -}}
-{{- if (and .limit (gt (len $posts) .limit)) -}}
-{{- $limit_exceeded = true -}}
-{{- else -}}
-{{- $limit_exceeded = false -}}
-{{ end }}
+{{- $limit_exceeded := false -}}
+{{- if and .limit (gt (len $posts) .limit) -}}
+  {{- $limit_exceeded = true -}}
+{{- end -}}
 
-{{- if (gt (len $posts) 0) }}
-{{- if .limit }}
-{{ $posts = (first .limit $posts ) }}
-{{ end }}
-<ul>
-  {{- range $post := $posts -}}
-  <li>
-    <span>{{- ($post.Date | time.Format site.Params.theme_config.date_format) }}</span>
-    <a href="{{ $post.Permalink | relURL }}"><i class="fa-solid fa-note-sticky" style="color: #cc6666;"></i> {{ $post.Title }}</a>
-  </li>
-  {{ end }}
-  {{- if and .show_more $limit_exceeded }}
-  <li><a href="{{ .show_more_url | relURL }}">{{ .show_more_text | default "Show more..." }}</a></li>
-  {{ end }}
-</ul>
-{{ end }}
+{{- if eq .context.RelPermalink "/tags/" -}}
+  <div class="tag-list">
+    <a href="/tags"><h3>Tags</h3></a>
+    <div class="tags">
+      {{- range $key, $value := site.Taxonomies.tags -}}
+        <a href="/tags/{{ $key | urlize }}" class="tag-item">{{ $key }} ({{ len $value }})</a>
+      {{- end -}}
+    </div>
+  </div>
+{{- else -}}
+  {{- if eq .context.RelPermalink "/post/" -}}
+    <div class="tag-list">
+    <a href="/tags"><h3>Tags</h3></a>
+    <div class="tags">
+        {{- range $key, $value := site.Taxonomies.tags -}}
+        <a href="/tags/{{ $key | urlize }}" class="tag-item">{{ $key }} ({{ len $value }})</a>
+        {{- end -}}
+      </div>
+    </div>
+  {{- end -}}
+  
+  {{- if gt (len $posts) 0 -}}
+    {{- if .limit -}}
+      {{- $posts = (first .limit $posts) -}}
+    {{- end -}}
+    <div class="post-list-container">
+      <div class="post">
+        {{- range $post := $posts -}}
+          <a href="{{ $post.Permalink | relURL }}">
+            <div class="post-content" >
+              <span>{{ $post.Date | time.Format site.Params.theme_config.date_format }}</span>
+              <h2 class="post-title">{{ $post.Title }}</h2>
+              <p class="post-desc">{{ $post.Description }}</p>
+              <div class="tags">
+                {{- range $post.Params.tags -}}
+                  <a href="/tags/{{ . | urlize }}" class="tag-item">{{ . }}</a>
+                {{- end -}}
+              </div>
+            </div>
+          </a>
+        {{- end -}}
+      </div>
+    </div>
+  {{- end -}}
+{{- end -}}
+

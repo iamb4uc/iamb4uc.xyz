@@ -1,0 +1,18 @@
+<header>
+    <h1>
+        {{- $crumbs := slice -}} 
+        {{- /* Add the home link (hardcoded as /root) */ -}} 
+        {{- $crumbs = $crumbs | append (printf "<a href=\"%s\"></a>" ("/" | relLangURL)) -}} 
+        {{ with .Ancestors }} 
+            {{- $ancestors := . -}} 
+            {{- $len := len $ancestors -}} 
+            {{- range $i, $_ := $ancestors -}} 
+            {{- $revIndex := sub (sub $len 1) $i -}} 
+            {{- $elem := index $ancestors $revIndex -}} 
+            {{- $crumbs = $crumbs | append (printf "<a href=\"%s\">%s-></a>" $elem.RelPermalink $elem.Title) -}} 
+            {{- end -}} 
+        {{ end }} 
+        {{- $crumbs = $crumbs | append (printf "%s" .Title) -}} 
+        {{- delimit $crumbs "" | safeHTML -}} 
+    </h1> 
+</header>

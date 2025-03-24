@@ -1,0 +1,14 @@
+<p>
+    <p class="postdate"> 
+        --- <br>
+        File_name: {{.Title}}<br>
+        Description: {{.Description}}<br>
+{{- $formattedDate := .Date | time.Format site.Params.theme_config.date_format -}}
+    {{- if ne $formattedDate "Jan 01, 0001" -}}
+        Date: {{ $formattedDate }} <br>
+    {{- end -}}
+        Word_Count: {{ .WordCount }} <br>
+        ---
+    </p>
+</p>
+

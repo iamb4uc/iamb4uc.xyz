@@ -1,21 +1,17 @@
-<ul class="hglt">
-    {{- range $item := .collection -}}
-    <li>
-        {{- with $item.url -}}
-        <a href="{{ $item.url | relURL }}">{{ safeHTML $item.title }}</a>
-        {{- else -}}
-        {{ safeHTML $item.title }}
-        {{- end -}}
-    </li>
-
-    {{- if $item.entries }}
-    {{ partial "menu_item.html" (dict "context" . "collection" $item.entries) }}
-    {{- end -}}
-
-    {{- if $item.post_list -}}
-    {{ partial "post_list.html" (dict "context" . "section" $item.post_list.section "limit" $item.post_list.limit
-    "show_more" $item.post_list.show_more "show_more_text" $item.post_list.show_more_text "show_more_url"
-    $item.post_list.show_more_url) -}}
-    {{- end -}}
-    {{- end -}}
-</ul>
+<nav class="navbar">
+  <div class="nav-container">
+    <ul class="nav-list">
+      {{- with .collection }}
+        {{- range $item := . }}
+          <li class="nav-item">
+            {{- with $item.url }}
+              <a class="nav-link" href="{{ . | relURL }}">{{ safeHTML $item.title }}</a>
+            {{- else }}
+              <span class="nav-text">{{ safeHTML $item.title }}</span>
+            {{- end }}
+          </li>
+        {{- end }}
+      {{- end }}
+    </ul>
+  </div>
+</nav>
