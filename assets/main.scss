@@ -1,28 +1,32 @@
 @import 'fonts';
 @import 'mobile';
 
-
 html,
 body {
-  color: black;
+  color: #282828;
   background: #f7f7f2;
   line-height: 1.5;
   margin: 0;
   min-height: 100%;
   overflow-wrap: break-word;
-  // text-align: justify;
   hyphens: auto;
   word-break: break-word;
-
-  li {
-    margin: 0.3rem 0;
-  }
-
 }
 
-body a {
+body a,
+li a,
+.footer a {
   text-decoration: none;
-  color: #15313a;
+  color: #cc241d;
+}
+
+li {
+  margin: 0.3rem 0;
+}
+
+li a {
+  position: relative;
+  color: black;
 }
 
 *:target {
@@ -30,7 +34,7 @@ body a {
 }
 
 .w {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -39,80 +43,48 @@ hr {
   margin: 2rem 0;
   text-align: center;
   border: 0;
-
-  &:before {
-    content: "--- END";
-  }
-
-  &:after {
-    content: attr(data-content) " ---";
-  }
 }
 
-// Tables
-table {
+hr::before {
+  content: "--- END";
+}
+
+hr::after {
+  content: attr(data-content) " ---";
+}
+
+table,
+tr {
   width: 100%;
   border: 2px solid black;
   border-collapse: collapse;
 }
 
-tr {
-  width: 100%;
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-
-li a {
-  text-decoration: none;
-  position: relative;
-  color: black;
-}
-
-ul {
-  padding-left: 5px;
-  list-style: circle;
-  margin-left: 25px;
-  position: relative;
-
-  li {
-    &:hover {
-      list-style: disc;
-    }
-  }
-}
-
-// Code blocks
 pre {
   margin: 10px;
   padding: 10px 15px;
-  border-radius: 5px;
   border: 2px solid black;
+  border-radius: 5px;
   overflow-x: auto;
-  box-shadow: 0px 0px 10px #c7c7a2;
+  box-shadow: 0 0 10px #c7c7a2;
 }
-
-.key {
-  text-align: center;
-}
-
 
 blockquote {
   border: solid #444;
   padding: 1.5rem;
   margin: 10px 0;
   border-radius: 5px;
+}
 
-  p {
-    margin: 0;
-  }
+blockquote p {
+  margin: 0;
 }
 
 img {
   max-width: 100%;
-  align-content: center;
-  border-radius: 5px;
   margin: 0 auto;
-  box-shadow: 0px 0px 10px #c7c7a2;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #c7c7a2;
 }
 
 figcaption {
@@ -121,8 +93,7 @@ figcaption {
 }
 
 .dsclmr {
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin: 30px 0;
   padding: 20px;
   color: #fcf8f0;
   background: #cc6666;
@@ -136,36 +107,6 @@ figcaption {
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 1rem;
-
-  @media (max-width: 768px) {
-    flex-direction: row;
-    align-items: center;
-  }
-}
-
-
-header {
-  display: flex;
-  align-items: center;
-}
-
-header .house {
-  margin-right: 7px;
-}
-
-header .house i {
-  font-size: 28px;
-}
-
-
-header a {
-  text-decoration: none;
-  color: black;
-}
-
-
-h1 {
-  font-size: 2em;
 }
 
 h2,
@@ -176,12 +117,117 @@ h6 {
   margin-top: 1.2em;
 }
 
-.house {
-  font-size: 2em;
-  display: flex;
+.postdate {
+  font-size: 80%;
+  opacity: 0.7;
 }
 
-.footer a {
-  color: black;
+/* Navbar */
+.navbar,
+.nav-container,
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  position: relative;
+  padding: 10px;
+}
+
+.nav-link {
+  display: block;
+  padding: 5px 10px;
+  font-weight: bold;
+  text-align: center;
   text-decoration: none;
+  color: #282828;
+  box-shadow: inset 0 -2px 0 0 #cc241d;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #cc241d;
+  color: #f7f7f2;
+  box-shadow: none;
+}
+
+/* Tags */
+.tag-list {
+  max-width: 100%;
+  margin: 0 auto 20px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag-item {
+  background: #e0e0e0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Posts */
+
+.post-container,
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-content {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post-date {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.post-title {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+.post-desc {
+  margin: 0;
+  color: #555;
+}
+
+.key {
+  text-align: center;
+}
+
+.credit {
+  text-align: center;
+  padding-bottom: 20px;
 }
