@@ -1,11 +1,6 @@
 {{ define "main" }}
-{{ partial "back_link.html" .}}
 
-<header>
-    <a class="house" href="{{ "/" | relURL }}"><i class="fa-solid fa-house"></i></i></a>
-    <h1>{{ .Title }}</h1>
-</header>
-
+{{ partial "header.html" .}}
 {{ .Content }}
 {{ partial "post_list.html" (dict "context" .)}}
 {{ end }}
