@@ -1,6 +1,13 @@
 {{ define "main" }}
   <article>
     {{ partial "header.html" .}}
+
+
+              <div class="tags">
+                {{- range .Params.tags -}}
+                  <a href="/tags/{{ . | urlize }}" class="tag-item">{{ . }}</a>
+                {{- end -}}
+              </div>
     <div class="content">
     {{ partial "post_details.html" .}}
       {{ .Content }}
