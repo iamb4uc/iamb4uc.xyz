@@ -3,21 +3,25 @@
 {{- partial "head.html" . -}}
 
 <body a="{{ $.Site.Params.theme_config.appearance | default " auto" }}">
-    <main class="page-content" aria-label="Content">
+    <div class="page-content" aria-label="Content">
         <div class="w">
+            {{ partial "menu_item.html" (dict "collection" site.Data.menu.entries "context" .) }}
             {{- block "main" . }}{{- end }}
             <hr>
-            <div class="footer">
+            <footer class="footer">
                 <center>
+                        <a href="https://github.com/iamb4uc/"><i class='fa-brands fa-github'></i></a>
+                        <a href="https://orcid.org/0009-0005-2010-926X"><i class='fa-brands fa-orcid'></i></a>
+                        <a href="https://linkedin.com/in/swapnil-iamb4uc"><i class='fa-brands fa-linkedin'></i></a>
+                        <a href="mailto:swapnil@iamb4uc.xyz"><i class='fa-solid fa-envelope'></i></a>
+                        <a href="/files/swapnil@iamb4uc.xyz.gpg"><i class='fa-solid fa-lock'></i></a>
+                        <a href="/index.xml"><i class='fa-solid fa-square-rss'></i> </a>
+                        <a href="/donate/"><i class='fa-solid fa-money-bill'></i></a>
+                        <br>
+                        <br>
                     &#127279; <a href="https://www.gnu.org/licenses/copyleft.en.html">Copyleft</a> 2022-2023 <a
                         href="https://iamb4uc.xyz">iamb4uc</a>.
                     No rights reserved
-                    <!-- WEBRING GOT INACTIVE DUES TO THE PARENT WEBSITE SHUTDOWNED, SAD. -->
-                    <!-- <div class="webring"> -->
-                    <!--     <a href="https://gnulinuxindia.org/direct.html?name=b4uc&dir=prev" alt="ᐊ "><i class="fa-solid fa-caret-left"></i></a> -->
-                    <!--     <a href="https://gnulinuxindia.org/members.html/" target="_blank" alt="Visit GNU/LINUX INDIA">WEBRING</a> -->
-                    <!--     <a href="https://gnulinuxindia.org/direct.html?name=b4uc&dir=next" alt=" ᐅ"><i class="fa-solid fa-caret-right"></i></a> -->
-                    <!-- </div> -->
                     <br>
                     <br>
                     <div class="fossicons">
@@ -59,8 +63,23 @@
                 </center>
             </div>
         </div>
-    </main>
-
 </body>
 
+<script>
+    function updateTime() {
+        const now = new Date();
+        const dateString = now.toLocaleDateString("en-US", { 
+            month: "short",
+            day: "2-digit",
+            year: "numeric"
+        });
+
+        const timeString = now.toLocaleTimeString("en-US");
+
+        document.getElementById("timeDisplay").textContent = `${dateString}, ${timeString}`;
+    }
+
+    updateTime();
+    setInterval(updateTime, 1000);
+</script>
 </html>
