@@ -6,7 +6,9 @@ description: Donate some money
 
 ![](/img/donate.gif)
 
-Here are a few ways you can help fund this project and the development of my free and open-source software. You can either send me crypto via the following wallet addresses or use PayPal to make a contribution.
+Here are a few ways you can help fund this project and the development of my
+free and open-source software. You can either send me crypto via the following
+wallet addresses or use PayPal to make a contribution.
 
 ```html
 Monero:
