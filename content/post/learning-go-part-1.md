@@ -2,8 +2,8 @@
 title: "Learning Go (Part 1 - Getting Started)"
 date: 2025-01-27T20:12:43+05:30
 draft: false
-description: 
-tags: [blog]
+description: A no-BS intro to the Go programming language — why you might want to learn it, how to install it, set up your editor, and write your first concurrent Go program using goroutines. Perfect for anyone getting started with Go and not in the mood for fluff.
+tags: [blog, golang, go, programming, getting started, tech, tutorial]
 ---
 
 ![](https://go.dev/blog/5years/gophers5th.jpg)
