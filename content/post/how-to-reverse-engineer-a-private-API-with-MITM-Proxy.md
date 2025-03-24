@@ -2,8 +2,8 @@
 title: "Reverse-Engineering Private APIs with MITM Proxy"
 date: 2023-11-14T22:49:27+05:30
 draft: false
-description: 
-tags: [blog, cybersecurity, reverse engineering]
+description: Reverse Engineer any Private API with Man-in-the-Middle (MITM) Proxy
+tags: [blog, cybersecurity, reverse engineering, linux, unix, tutorial]
 ---
 
 ![](https://github.com/iamb4uc/wallpapers/blob/main/Watchdogs/wp4020159-dedsec-wallpapers.png?raw=true)

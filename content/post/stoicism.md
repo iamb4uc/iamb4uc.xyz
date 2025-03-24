@@ -3,6 +3,7 @@ title: "Stoicism"
 date: 2022-12-10T12:46:31+05:30
 draft: false
 tags: [selfImprovement, Philosophy]
+description: A simple blog introducing stoicism
 ---
 Stoicism has been a guiding principle in my life for the past few years. It has helped me to navigate through difficult times and find inner peace and fulfillment. The concept of "ataraxia" or inner peace, has been particularly valuable to me. Accepting that some things are beyond our control and focusing on the things that are within our control has allowed me to let go of my attachment to certain outcomes and find peace in the present moment.
 

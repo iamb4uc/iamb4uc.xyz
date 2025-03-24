@@ -2,8 +2,8 @@
 title: "On Social Media"
 date: 2023-05-15T20:25:15+05:30
 draft: false
-description: 
 tags: [blog, selfImprovement]
+description: SOCIAL MEDIA BAD. But here are the reason why...
 ---
 
 Last day I got this email and here what it reads:

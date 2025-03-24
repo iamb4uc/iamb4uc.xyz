@@ -3,7 +3,7 @@ title: "Ghost Mode"
 date: 2023-04-27T14:24:33+05:30
 draft: false
 description: "Get you life together and start actually living it the way it was meant to be."
-tags: [blog, selfImprovement]
+tags: [blog, selfImprovement, productivity]
 ---
 
 *Ghost mode is the act of going complete offline

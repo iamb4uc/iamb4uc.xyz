@@ -2,8 +2,14 @@
 title: "Lets Join Tilde Varsh"
 date: 2022-09-16T22:48:40+05:30
 draft: false
-tags: [blog, foss, tutorial, tech]
+tags: [blog, foss, tutorial, tech, linux, unix, getting started]
+description: Introduction to tildevarsh. [Depricated]
 ---
+<div class="dsclmr">
+The site mentioned here is no longer active or does not work with adblock enabled. So <em>do not visit this site</em>.
+</div>
+
+
 Few weeks ago I came across this thing called a tilde on the [gnulinuxindia.org](https://gnulinuxindia.org) website, while lurking around the web. I had zero idea about what it was about or what even is it. So in their terms it is
 > An India-based shared unix system which focuses on mutual development of skills and sharing of ideas. Services are secondary in this tilde, community is prime.
 >

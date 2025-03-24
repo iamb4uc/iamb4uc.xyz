@@ -3,7 +3,15 @@ title: "Neovim Customization"
 date: 2022-07-03T08:48:38+05:30
 draft: false
 tags: [tutorial, blog, neovim, foss]
+description: Configure vim from scratch
 ---
+
+<div class="dsclmr">
+    This is an old post and I dont use this config anymore. I have made a
+    better version which you can copy from my github.
+</div>
+
+![](https://managedserver.it/wp-content/uploads/2023/07/VIM-Editor.jpg)
 
 ### Why use vim and neovim over other text editors and IDEs?
 *For me, I've always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or Neovim. Tho I currently, am running Neovim, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo. But enough talking, lets start configuring our VIM/NVIM to make it more like an actual developing environment.*  
