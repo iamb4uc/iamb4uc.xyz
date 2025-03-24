@@ -1,57 +1,15 @@
 [[entries]]
-title = "<i class='fa-solid fa-circle-info'></i> About/Contact"
+title = "Home"
+url = "/"
+
+[[entries]]
+title = "About Me"
 url = "/about/"
 
+[[entries]]
+title = "Posts"
+url = "/post"
 
 [[entries]]
-title = "<i class='fa-solid fa-file'></i> Resume"
-url = "/resume/"
-
-
-[[entries]]
-title = "<i class='fa-solid fa-arrow-up-right-from-square'></i> Links"
-
-    [[entries.entries]]
-    title = "<i class='fa-brands fa-github'></i> GitHub"
-    url = "https://github.com/iamb4uc/"
-
-    [[entries.entries]]
-    title = "<i class='fa-brands fa-orcid'></i> ORCID"
-    url = "https://orcid.org/0009-0005-2010-926X"
-
-    [[entries.entries]]
-    title = "<i class='fa-brands fa-square-x-twitter'></i> Twitter / X"
-    url = "https://twitter.com/iamb4uc/"
-
-    [[entries.entries]]
-    title = "<i class='fa-brands fa-linkedin'></i> LinkedIn"
-    url = "https://linkedin.com/in/swapnil-iamb4uc"
-
-    [[entries.entries]]
-    title = "<i class='fa-solid fa-envelope'></i> Mail"
-    url = "mailto:swapnil@iamb4uc.xyz"
-
-    [[entries.entries]]
-    title = "<i class='fa-solid fa-lock'></i> GPG Key"
-    url = "/files/swapnil@iamb4uc.xyz.gpg"
-
-[[entries]]
-title = "<i class='fa-solid fa-pen-to-square'></i> Blogs"
-
-    [entries.post_list]
-    limit = 5
-    show_more = true
-    show_more_text = "Show more..."
-    show_more_url = "post"
-
-[[entries]]
-title = "<i class='fa-solid fa-tags'></i> Posts by tags"
-url = "/tags/"
-
-[[entries]]
-title = "<i class='fa-solid fa-square-rss'></i> RSS"
-url = "index.xml"
-
-[[entries]]
-title = "<i class='fa-solid fa-money-bill'></i> Donate"
-url = "/donate/"
+title = "Projects"
+url= "/projects"
