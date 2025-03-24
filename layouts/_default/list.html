@@ -1,7 +1,7 @@
 {{ define "main" }}
-{{ partial "back_link.html" .}}
 
-<h1>{{ .Title }}</h1>
+{{ partial "header.html" .}}
+
 <div class="hglt">
     {{ .Content }}
     {{ partial "post_list.html" (dict "context" . "section" .Section)}}
