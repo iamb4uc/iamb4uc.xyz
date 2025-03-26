@@ -18,3 +18,7 @@ content.
 
 Everything shared here is the result of my personal research on systems that
 are entirely legal. Proceed with caution, and remember - you're on your own.
+
+Also about the images and gif used in this project. I found these randomly so I
+don't know the artist. If you know who to credit or the original creator of
+these assests feel free to email me for any removal or any other action.
