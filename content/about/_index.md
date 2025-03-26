@@ -27,12 +27,9 @@ updates**](./updates/) if you want to these are not super long just some
 updates
 I want to share that I cannot in other websites or other forums.
 
-Outside of tech, I'm into movies, music, anime, and books. I don't usually
-bring these up unless someone asks, but if you're curious, check out my
-recommendations below:
-
-- [Anime/Manga](./anime/)
-- [Books](./book/)
+Outside of tech, I'm into movies, music, [anime](./anime/), and
+[books](./book/). I don't usually bring these up unless someone asks, but if
+you're curious, check out my recommendations below:
 
 Also before writing me an email use my [**gpg
 key**](/files/swapnil@iamb4uc.xyz.gpg) for encrypting the message. My email
