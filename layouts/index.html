@@ -7,4 +7,21 @@
 </header>
 {{ .Content }}
 
+<script>
+    function updateTime() {
+        const now = new Date();
+        const dateString = now.toLocaleDateString("en-US", { 
+            month: "short",
+            day: "2-digit",
+            year: "numeric"
+        });
+
+        const timeString = now.toLocaleTimeString("en-US");
+
+        document.getElementById("timeDisplay").textContent = `${dateString}, ${timeString}`;
+    }
+
+    updateTime();
+    setInterval(updateTime, 1000);
+</script>
 {{ end }}

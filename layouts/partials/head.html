@@ -20,11 +20,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="manifest" href="/favicon/site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="{{ $.Site.Params.favicon | relURL }}" />
-    <link rel="stylesheet" href="/fontawesome/css/fontawesome.css" />
-    <link rel="stylesheet" href="/fontawesome/css/brands.css" />
-    <link rel="stylesheet" href="/fontawesome/css/solid.css" />
     {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
     {{ $sass := resources.Get "main.scss" }}
-    {{ $style := $sass | css.Sass $options | minify | resources.Fingerprint "sha512" }}
-    <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" integrity="{{ $style.Data.Integrity }}" />
+    {{ $style := $sass | css.Sass $options | minify }}
+    <link rel="stylesheet" href="{{ $style.Permalink | relURL }}"/>
 </head>
