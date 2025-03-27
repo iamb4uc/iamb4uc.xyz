@@ -14,10 +14,6 @@
     font-size: 80%;
   }
 
-  .navbar {
-    font-size: 85%;
-  }
-
   .credit {
     font-size: 70%;
   }
@@ -50,10 +46,6 @@
     padding:10px;
   }
 
-  .navbar {
-    font-size: 75%;
-  }
-
   table tr {
     font-size: 80%;
   }
@@ -76,5 +68,15 @@
 
   .dsclmr {
     font-size: 1em;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    a img{
+      width: 60px;
+    }
   }
 }

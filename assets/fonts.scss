@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css3?family=Aldrich&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Poppins&display=swap');
 
 body {
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Poppins", sans-serif;
 }
 
 code {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 95%;
+  font-family: "JetBrains Mono", monospace;
 }
 
 blockquote {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .dsclmr{
@@ -19,4 +18,22 @@ blockquote {
 
 .credit {
   font-size: 81%;
+}
+
+.post-date, .tag-item {
+  font-size: 0.9em;
+}
+
+.post-title{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.postdate {
+  font-size: 80%;
+  opacity: 0.7;
+}
+
+.nav-link {
+  font-weight: bold;
 }
