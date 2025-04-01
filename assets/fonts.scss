@@ -1,39 +1,15 @@
-@font-face {
-  font-display: swap;
-  font-family: "JetBrains Mono";
-  font-style: normal;
-  font-weight: 400;
-  src: url('/fonts/jb.eot');
-  src: url('/fonts/jb.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/jb.woff2') format('woff2'),
-       url('/fonts/jb.woff') format('woff'),
-       url('/fonts/jb.ttf') format('truetype'),
-       url('/fonts/jb.svg#JetBrainsMono') format('svg');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  src: url('/fonts/poppins.eot');
-  src: url('/fonts/poppins.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/poppins.woff2') format('woff2'),
-       url('/fonts/poppins.woff') format('woff'),
-       url('/fonts/poppins.ttf') format('truetype'),
-       url('/fonts/poppins.svg#Poppins') format('svg');
-}
-
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
+  font-size: 90%;
 }
 
 code {
-  font-family: "JetBrains Mono", monospace;
+  font-family: monospace;
 }
 
 blockquote {
-  font-family: "JetBrains Mono", monospace;
+  font-family: sans-serif;
+  opacity: 70%;
 }
 
 .dsclmr{
