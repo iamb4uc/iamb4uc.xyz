@@ -1,4 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Poppins&display=swap');
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/jetbrains-mono-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/jetbrains-mono-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/jetbrains-mono-v20-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/fonts/jetbrains-mono-v20-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+       url('/fonts/jetbrains-mono-v20-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+       url('/fonts/jetbrains-mono-v20-latin-regular.svg#JetBrainsMono') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/poppins-v22-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/poppins-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/poppins-v22-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/fonts/poppins-v22-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+       url('/fonts/poppins-v22-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+       url('/fonts/poppins-v22-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
 
 body {
   font-family: "Poppins", sans-serif;
