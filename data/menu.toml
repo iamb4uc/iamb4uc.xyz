@@ -3,12 +3,12 @@ title = "Home"
 url = "/"
 
 [[entries]]
-title = "About Me"
-url = "/about/"
-
-[[entries]]
 title = "Posts"
 url = "/post"
+
+[[entries]]
+title = "About"
+url = "/about/"
 
 [[entries]]
 title = "Projects"
