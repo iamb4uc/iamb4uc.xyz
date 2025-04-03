@@ -20,7 +20,7 @@ Here are a list of tools and other shits I use on a day to day basis.
 | Operating System | [**OpenBSD**](https://www.openbsd.org/) and [**VoidLinux (musl)**](https://voidlinux.org) |
 | Browser | [**qutebrowser**](https://www.qutebrowser.org/), [**lynx**](https://lynx.invisible-island.net/) and [**Mullvad Browser**](https://mullvad.net/en/browser) |
 | Window Manager | [**VDWM**](https://github.com/iamb4uc/vdwm) (my config for suckless' dwm) |
-| Terminal Emulator | [**StealthStreamTerminal**](https://github.com/iamb4uc/StealthStreamTerminal) (my config for suckless' st) and sometimes [ghostty](https://ghostty.org/) |
+| Terminal Emulator | [**StealthStreamTerminal**](https://github.com/iamb4uc/StealthStreamTerminal) (my config for suckless' st) |
 | Editor | Vim/Neovim (whatever floats the boat) |
 | Office Suite | None (I use markdown to take notes then convert the document into odt or other forms using pandoc.) |
 | Media Player | mpv |
