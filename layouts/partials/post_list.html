@@ -23,7 +23,7 @@
 
 {{- if eq .context.RelPermalink "/tags/" -}}
   <div class="tag-list">
-    <a href="/tags"><h3>Tags</h3></a>
+    <h3>Tags</h3>
     <div class="tags">
       {{- range $key, $value := site.Taxonomies.tags -}}
         <a href="/tags/{{ $key | urlize }}" class="tag-item">{{ $key }} ({{ len $value }})</a>
@@ -32,14 +32,16 @@
   </div>
 {{- else -}}
   {{- if eq .context.RelPermalink "/post/" -}}
-    <div class="tag-list">
-    <a href="/tags"><h3>Tags</h3></a>
+  <details>
+    <summary>Tags</summary>
+        <div class="tag-list">
     <div class="tags">
         {{- range $key, $value := site.Taxonomies.tags -}}
         <a href="/tags/{{ $key | urlize }}" class="tag-item">{{ $key }} ({{ len $value }})</a>
         {{- end -}}
       </div>
     </div>
+</details>
   {{- end -}}
   
   {{- if gt (len $posts) 0 -}}

@@ -3,7 +3,7 @@ title: "GRUB - *Literally for coomies*"
 date: 2023-02-18T04:22:10+05:30
 draft: false
 description: A rant about GNU Grub
-tags: [blog, tech, foss, unix, linux, rant]
+tags: [blog, foss, linux, tech]
 ---
 
 

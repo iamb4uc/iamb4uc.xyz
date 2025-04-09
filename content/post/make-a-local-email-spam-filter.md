@@ -3,7 +3,7 @@ title: "Make a Local Email Spam Filter"
 date: 2024-02-17T20:29:30+05:30
 draft: false
 description: In this we will be making a email spam filter using a raspberry pi
-tags: [blog, cybersecurity, foss, tech, tutorial]
+tags: [blog, cybersecurity, foss, privacy, tech]
 tableofcontent: true
 ---
 

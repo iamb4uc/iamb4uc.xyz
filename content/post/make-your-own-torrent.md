@@ -2,8 +2,8 @@
 title: "Make Your Own Torrent"
 date: 2022-09-25T10:13:11+05:30
 draft: false
-tags: [tutorial, foss, torrent]
 description: Let make your own torrent file.
+tags: [blog, foss, torrent, privacy]
 ---
 > You are **based** if you seed torrent.
 >

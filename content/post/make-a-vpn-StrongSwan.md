@@ -3,7 +3,7 @@ title: "Lets Make A VPN (StrongSwan)"
 date: 2024-11-24T22:37:56+05:30
 draft: false
 description: Making a strongswan vpn
-tags: [blog, vpn, cybersecurity, getting started, linux, tech, tutorial, unix]
+tags: [blog, vpn, cybersecurity, linux, tech, privacy]
 ---
 
 ![](https://github.com/iamb4uc/wallpapers/blob/main/gruvbox/gruv-room.png?raw=true)
